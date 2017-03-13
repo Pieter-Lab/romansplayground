@@ -25,6 +25,12 @@
 	<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<![endif]-->
+	<!-- Custom Styles goes here for now -->
+	<style>
+		#customgmap{
+			min-height: 400px;
+		}
+	</style>
 </head>
 <body>
 <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -62,18 +68,12 @@
 <div class="container">
 	<!-- Example row of columns -->
 	<div class="row">
-		<div class="col-md-4">
-			<h2>Heading</h2>
-			<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-			<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+		<div class="col-md-8">
+			<h3>GMAP</h3>
+			<div id="customgmap" class="col-md-12"></div>
 		</div>
 		<div class="col-md-4">
-			<h2>Heading</h2>
-			<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-			<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-		</div>
-		<div class="col-md-4">
-			<h2>Heading</h2>
+			<h2>Map Testing!!</h2>
 			<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
 			<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
 		</div>
@@ -93,5 +93,20 @@
 <script src="/vendor/twbs/bootstrap/dist/js/bootstrap.min.js"></script>
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 <script src="/vendor/twbs/bootstrap/docs/assets/js/ie10-viewport-bug-workaround.js"></script>
+<!-- ---------------------------------------------------------------------------------------------------------------- -->
+<!-- Init Google map system -->
+<script>
+	function initMap() {
+		// Create a map object and specify the DOM element for display.
+		var map = new google.maps.Map(document.getElementById('customgmap'), {
+			center: {lat: -34.397, lng: 150.644},
+			scrollwheel: false,
+			zoom: 8
+		});
+	}
+</script>
+<!--Bring in Google maps javascript API -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhGrqYjWtbqCvspodZvrY-CgfJQ5Adtdo&callback=initMap" async defer></script>
+<!-- ---------------------------------------------------------------------------------------------------------------- -->
 </body>
 </html>
