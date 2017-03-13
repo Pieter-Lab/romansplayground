@@ -99,8 +99,8 @@
 	function initMap() {
 		// Create a map object and specify the DOM element for display.
 		var map = new google.maps.Map(document.getElementById('customgmap'), {
-			center: {lat: -34.397, lng: 150.644},
-			scrollwheel: false,
+			center: {lat: 51.5057939, lng: -0.1259181},
+			scrollwheel: true,
 			zoom: 8
 		});
 	}
