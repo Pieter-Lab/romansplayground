@@ -93,20 +93,22 @@
 <script src="/vendor/twbs/bootstrap/dist/js/bootstrap.min.js"></script>
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 <script src="/vendor/twbs/bootstrap/docs/assets/js/ie10-viewport-bug-workaround.js"></script>
+<!-- OUR OWN MAGIC js -->
+<script src="/_assets/js/main.js" type="application/javascript"></script>
 <!-- ---------------------------------------------------------------------------------------------------------------- -->
 <!-- Init Google map system -->
 <script>
-	function initMap() {
-		// Create a map object and specify the DOM element for display.
-		var map = new google.maps.Map(document.getElementById('customgmap'), {
-			center: {lat: 51.5057939, lng: -0.1259181},
-			scrollwheel: true,
-			zoom: 8
-		});
-	}
+//	function initMap() {
+////		// Create a map object and specify the DOM element for display.
+////		var map = new google.maps.Map(document.getElementById('customgmap'), {
+////			center: {lat: 51.5057939, lng: -0.1259181},
+////			scrollwheel: true,
+////			zoom: 8
+////		});
+//	}
 </script>
 <!--Bring in Google maps javascript API -->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhGrqYjWtbqCvspodZvrY-CgfJQ5Adtdo&callback=initMap" async defer></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhGrqYjWtbqCvspodZvrY-CgfJQ5Adtdo&callback=LABMAP.init" async defer></script>
 <!-- ---------------------------------------------------------------------------------------------------------------- -->
 </body>
 </html>
