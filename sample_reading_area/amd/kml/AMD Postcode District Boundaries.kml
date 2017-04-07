@@ -1,0 +1,1992 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>AMD Postcode District Boundaries</name>
+<visibility>1</visibility>
+<Schema name="AMD_POSTCODE_DISTRICT_BOUNDARIES" id="kml_schema_ft_AMD_POSTCODE_DISTRICT_BOUNDARIES">
+<SimpleField type="xsd:string" name="POSTDIST">
+<displayName>POSTDIST</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="STRUCUTRED">
+<displayName>STRUCUTRED</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="POSTAREA">
+<displayName>POSTAREA</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="POSTCODE_C">
+<displayName>POSTCODE_C</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="AREA_KM">
+<displayName>AREA_KM</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="AREA_MI">
+<displayName>AREA_MI</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="X_COORD">
+<displayName>X_COORD</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Y_COORD">
+<displayName>Y_COORD</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="LONGITUDE">
+<displayName>LONGITUDE</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="LATITUDE">
+<displayName>LATITUDE</displayName>
+</SimpleField>
+</Schema>
+<Folder id="kml_ft_AMD_POSTCODE_DISTRICT_BOUNDARIES">
+<name>kml_ft_AMD_POSTCODE_DISTRICT_BOUNDARIES</name>
+<Placemark id="kml_980">
+<name>kml_980</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>GU15</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>GU15</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>GU</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>355</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>19.46526944178</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>7.51558254808</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>488119.9995</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>160672.9995</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-0.7348345</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.33780625</td>
+</tr></table></center><center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>GU15</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>GU15</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>GU</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>355</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>19.46526944178</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>7.51558254808</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>488119.9995</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>160672.9995</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-0.7348345</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.33780625</td>
+</tr></table></center>]]></description>
+<styleUrl>#kml_style_ft_AMD_POSTCODE_DISTRICT_BOUNDARIES</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_AMD_POSTCODE_DISTRICT_BOUNDARIES">
+<SimpleData name="POSTDIST">GU15</SimpleData>
+<SimpleData name="STRUCUTRED">GU15</SimpleData>
+<SimpleData name="POSTAREA">GU</SimpleData>
+<SimpleData name="POSTCODE_C">355</SimpleData>
+<SimpleData name="AREA_KM">19.46526944178</SimpleData>
+<SimpleData name="AREA_MI">7.51558254808</SimpleData>
+<SimpleData name="X_COORD">488119.9995</SimpleData>
+<SimpleData name="Y_COORD">160672.9995</SimpleData>
+<SimpleData name="LONGITUDE">-0.7348345</SimpleData>
+<SimpleData name="LATITUDE">51.33780625</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-0.754521882147515,51.3619688829705,0.0 -0.754521882147515,51.3575414962577,0.0 -0.770382088397439,51.3575414962577,0.0 -0.770402074061928,51.3575823531377,0.0 -0.773001595414818,51.3581221895434,0.0 -0.773676592961127,51.3591992832604,0.0 -0.771374290853018,51.3615041732794,0.0 -0.768355425526281,51.3615983362682,0.0 -0.754521882147515,51.3619688829705,0.0</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_1005">
+<name>kml_1005</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>GU47</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>GU47</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>GU</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>105</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>8.38980343763</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>3.23932121702</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>484071.83433333</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>161563.99833333</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-0.79273066667</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.34642933333</td>
+</tr></table></center><center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>GU47</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>GU47</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>GU</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>105</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>8.38980343763</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>3.23932121702</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>484071.83433333</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>161563.99833333</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-0.79273066667</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.34642933333</td>
+</tr></table></center>]]></description>
+<styleUrl>#kml_style_ft_AMD_POSTCODE_DISTRICT_BOUNDARIES</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_AMD_POSTCODE_DISTRICT_BOUNDARIES">
+<SimpleData name="POSTDIST">GU47</SimpleData>
+<SimpleData name="STRUCUTRED">GU47</SimpleData>
+<SimpleData name="POSTAREA">GU</SimpleData>
+<SimpleData name="POSTCODE_C">105</SimpleData>
+<SimpleData name="AREA_KM">8.38980343763</SimpleData>
+<SimpleData name="AREA_MI">3.23932121702</SimpleData>
+<SimpleData name="X_COORD">484071.83433333</SimpleData>
+<SimpleData name="Y_COORD">161563.99833333</SimpleData>
+<SimpleData name="LONGITUDE">-0.79273066667</SimpleData>
+<SimpleData name="LATITUDE">51.34642933333</SimpleData>
+</SchemaData>
+</ExtendedData>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-0.811881675652029,51.3575414962577,0.0 -0.836536884981072,51.3575414962577,0.0 -0.824367184211037,51.3618139864958,0.0 -0.820775305983213,51.3579382899668,0.0 -0.811881675652029,51.3575414962577,0.0</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-0.796754405176863,51.3575414962577,0.0 -0.794608162735398,51.3579058632052,0.0 -0.790569220664559,51.3596625983044,0.0 -0.771374290853018,51.3615041732794,0.0 -0.773676592961127,51.3591992832604,0.0 -0.773001595414818,51.3581221895434,0.0 -0.770402074061928,51.3575823531377,0.0 -0.770382088397439,51.3575414962577,0.0 -0.796754405176863,51.3575414962577,0.0</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+<Placemark id="kml_1828">
+<name>kml_1828</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>OX10</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>OX10</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>OX</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>189</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>122.60766628174</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>47.33908460523</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>460638.0878</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>190493.8996</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-1.1242158</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.6095338</td>
+</tr></table></center><center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>OX10</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>OX10</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>OX</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>189</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>122.60766628174</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>47.33908460523</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>460638.0878</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>190493.8996</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-1.1242158</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.6095338</td>
+</tr></table></center>]]></description>
+<styleUrl>#kml_style_ft_AMD_POSTCODE_DISTRICT_BOUNDARIES</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_AMD_POSTCODE_DISTRICT_BOUNDARIES">
+<SimpleData name="POSTDIST">OX10</SimpleData>
+<SimpleData name="STRUCUTRED">OX10</SimpleData>
+<SimpleData name="POSTAREA">OX</SimpleData>
+<SimpleData name="POSTCODE_C">189</SimpleData>
+<SimpleData name="AREA_KM">122.60766628174</SimpleData>
+<SimpleData name="AREA_MI">47.33908460523</SimpleData>
+<SimpleData name="X_COORD">460638.0878</SimpleData>
+<SimpleData name="Y_COORD">190493.8996</SimpleData>
+<SimpleData name="LONGITUDE">-1.1242158</SimpleData>
+<SimpleData name="LATITUDE">51.6095338</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-1.16376260480376,51.5341235269498,0.0 -1.16376260480376,51.5432549370844,0.0 -1.14291252517514,51.5432549370844,0.0 -1.1444885024335,51.539342837127,0.0 -1.15229006526185,51.5385183340942,0.0 -1.16288599237142,51.533900746542,0.0 -1.16376260480376,51.5341235269498,0.0</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_2079">
+<name>kml_2079</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>RG1</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>RG 1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>176</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>7.08833742815</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>2.73682238148</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>471794.312375</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>173240.936625</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-0.966638125</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.45310375</td>
+</tr></table></center><center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>RG1</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>RG 1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>176</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>7.08833742815</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>2.73682238148</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>471794.312375</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>173240.936625</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-0.966638125</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.45310375</td>
+</tr></table></center>]]></description>
+<styleUrl>#kml_style_ft_AMD_POSTCODE_DISTRICT_BOUNDARIES</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_AMD_POSTCODE_DISTRICT_BOUNDARIES">
+<SimpleData name="POSTDIST">RG1</SimpleData>
+<SimpleData name="STRUCUTRED">RG 1</SimpleData>
+<SimpleData name="POSTAREA">RG</SimpleData>
+<SimpleData name="POSTCODE_C">176</SimpleData>
+<SimpleData name="AREA_KM">7.08833742815</SimpleData>
+<SimpleData name="AREA_MI">2.73682238148</SimpleData>
+<SimpleData name="X_COORD">471794.312375</SimpleData>
+<SimpleData name="Y_COORD">173240.936625</SimpleData>
+<SimpleData name="LONGITUDE">-0.966638125</SimpleData>
+<SimpleData name="LATITUDE">51.45310375</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-0.94419690034478,51.4467736323229,0.0 -0.947245485451354,51.4447229069722,0.0 -0.950363696182646,51.4453044971904,0.0 -0.954683348322653,51.4426635449857,0.0 -0.960531419980801,51.444918537593,0.0 -0.964946667334433,51.4443821011808,0.0 -0.965285156989498,51.4465970797218,0.0 -0.965792226525997,51.4458102229755,0.0 -0.966368603693421,51.446408785932,0.0 -0.970508615994452,51.4459596863305,0.0 -0.972062840722032,51.4465937586475,0.0 -0.972030954524328,51.448014148848,0.0 -0.973536816489004,51.4482431703626,0.0 -0.973987034054545,51.4474198226978,0.0 -0.975407926787458,51.4475851607628,0.0 -0.975500460262425,51.4460213759194,0.0 -0.981877510270329,51.4426779788054,0.0 -0.988153051974226,51.4419319729955,0.0 -0.992627415142416,51.438679516966,0.0 -0.995841439310024,51.4384193338654,0.0 -0.996489143079008,51.4416888877738,0.0 -0.993878533331954,51.4478709262645,0.0 -0.991885434801933,51.4521249745039,0.0 -0.991158373645779,51.4544205987478,0.0 -0.986967865358153,51.460382026642,0.0 -0.988941675294987,51.4603001838352,0.0 -0.988630001470927,51.4626802786002,0.0 -0.987123164736487,51.4637733160586,0.0 -0.979011335057384,51.4647460021544,0.0 -0.979764248099303,51.4658406193717,0.0 -0.977296068741048,51.4654864268467,0.0 -0.970892976301088,51.4634341792896,0.0 -0.970674158891757,51.4622813572853,0.0 -0.967896666717619,51.4609710342508,0.0 -0.960820467673171,51.4626170572959,0.0 -0.957219900209647,51.4620635465524,0.0 -0.955433922741908,51.4614811494693,0.0 -0.949649915068886,51.4594872615044,0.0 -0.942376876607824,51.4602851479689,0.0 -0.943365188772478,51.4598714652897,0.0 -0.941740093855772,51.4573211157765,0.0 -0.940358256619957,51.4573266228264,0.0 -0.938017477539784,51.4552372748429,0.0 -0.941118905855264,51.4549326271714,0.0 -0.941504459321868,51.451950760065,0.0 -0.948219290067083,51.4528384610947,0.0 -0.944299545047495,51.4518141451702,0.0 -0.941770083526038,51.4485542985834,0.0 -0.93924142909876,51.4489989868512,0.0 -0.937438178074132,51.4467077422069,0.0 -0.939415033221873,51.445232956799,0.0 -0.94419690034478,51.4467736323229,0.0</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_2080">
+<name>kml_2080</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>RG10</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>RG10</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>291</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>62.76841935832</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>24.23502220254</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>479504.006</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>177043.83233333</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-0.854839</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.48626266667</td>
+</tr></table></center><center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>RG10</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>RG10</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>291</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>62.76841935832</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>24.23502220254</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>479504.006</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>177043.83233333</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-0.854839</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.48626266667</td>
+</tr></table></center>]]></description>
+<styleUrl>#kml_style_ft_AMD_POSTCODE_DISTRICT_BOUNDARIES</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_AMD_POSTCODE_DISTRICT_BOUNDARIES">
+<SimpleData name="POSTDIST">RG10</SimpleData>
+<SimpleData name="STRUCUTRED">RG10</SimpleData>
+<SimpleData name="POSTAREA">RG</SimpleData>
+<SimpleData name="POSTCODE_C">291</SimpleData>
+<SimpleData name="AREA_KM">62.76841935832</SimpleData>
+<SimpleData name="AREA_MI">24.23502220254</SimpleData>
+<SimpleData name="X_COORD">479504.006</SimpleData>
+<SimpleData name="Y_COORD">177043.83233333</SimpleData>
+<SimpleData name="LONGITUDE">-0.854839</SimpleData>
+<SimpleData name="LATITUDE">51.48626266667</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-0.873945340768473,51.5287595215605,0.0 -0.868159556025666,51.5336134222978,0.0 -0.867572646241118,51.5375101575118,0.0 -0.854967773136274,51.5370551604021,0.0 -0.847971188703662,51.5377689282315,0.0 -0.842115845688163,51.5372527642611,0.0 -0.843205501134727,51.5352224125457,0.0 -0.842197465481604,51.5334680129931,0.0 -0.839448637388857,51.5355449739269,0.0 -0.840030411159565,51.541584217574,0.0 -0.82448674322935,51.5264311528799,0.0 -0.817106697749756,51.5208450255582,0.0 -0.81077466183485,51.518254305238,0.0 -0.808113775322044,51.5158354407011,0.0 -0.81014550693898,51.5114230762053,0.0 -0.810571495860777,51.5072371155352,0.0 -0.80826160317527,51.5040935702354,0.0 -0.807870619648161,51.5008524620785,0.0 -0.803541892401496,51.4950536034751,0.0 -0.794620179509077,51.4870404065975,0.0 -0.788910031752556,51.4785920866254,0.0 -0.778305237535984,51.4723586327726,0.0 -0.768296921331155,51.4697451968828,0.0 -0.77292037057266,51.4691371657522,0.0 -0.781798374354887,51.4633759986852,0.0 -0.796647190553264,51.4570820118885,0.0 -0.805711149806685,51.4522651162944,0.0 -0.821104536095515,51.446342243083,0.0 -0.832410258504936,51.4403228824714,0.0 -0.850761628008914,51.4337511678178,0.0 -0.854750646079194,51.4312814390268,0.0 -0.874312781118803,51.438376691897,0.0 -0.875822799681675,51.4395781322461,0.0 -0.871256739208307,51.4456217840008,0.0 -0.871439483514227,51.4498857537216,0.0 -0.874114305549642,51.452303351916,0.0 -0.876687198066687,51.4530203844891,0.0 -0.875084258800202,51.4596859856342,0.0 -0.875859448688264,51.4621122685396,0.0 -0.880101474995201,51.4628811680002,0.0 -0.882369016650653,51.4661128874221,0.0 -0.886831532103032,51.4667128410209,0.0 -0.880308117420755,51.4697349841298,0.0 -0.882620904552395,51.4711237709869,0.0 -0.884224851138866,51.472065213188,0.0 -0.887242351705491,51.4717252296792,0.0 -0.891317828612293,51.4746591808209,0.0 -0.897898721808763,51.4746313069061,0.0 -0.900985958617693,51.4737880440454,0.0 -0.911833245238758,51.4765957632346,0.0 -0.913785574775713,51.4756337547588,0.0 -0.923039236132013,51.4795136330919,0.0 -0.925002125089165,51.4842253893131,0.0 -0.926296259677585,51.4849206033079,0.0 -0.919734770715798,51.4895541122251,0.0 -0.919352508617121,51.4917086407376,0.0 -0.915517470679587,51.4942898477455,0.0 -0.907151983469725,51.4953362334479,0.0 -0.899708957908001,51.4987375031385,0.0 -0.89704945359558,51.4973097589106,0.0 -0.89329062365788,51.496671898099,0.0 -0.890771739258428,51.4983656051934,0.0 -0.88360779283846,51.5008872768145,0.0 -0.871072057352402,51.5027005588616,0.0 -0.86995888476917,51.504020608713,0.0 -0.87100631385175,51.5053615578884,0.0 -0.870469470404479,51.5066781738402,0.0 -0.874611198959957,51.5093435553189,0.0 -0.880040310952092,51.5112478307893,0.0 -0.880768735064892,51.5138623846055,0.0 -0.88021244118902,51.5171571210514,0.0 -0.878575920321864,51.5180676582517,0.0 -0.878347414302687,51.5226783035546,0.0 -0.873945340768473,51.5287595215605,0.0</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_2081">
+<name>kml_2081</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>RG12</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>RG12</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>143</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>26.43973552734</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>10.2084389584</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>487274.16733333</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>168005.33216667</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-0.745174</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.40385733333</td>
+</tr></table></center><center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>RG12</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>RG12</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>143</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>26.43973552734</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>10.2084389584</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>487274.16733333</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>168005.33216667</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-0.745174</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.40385733333</td>
+</tr></table></center>]]></description>
+<styleUrl>#kml_style_ft_AMD_POSTCODE_DISTRICT_BOUNDARIES</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_AMD_POSTCODE_DISTRICT_BOUNDARIES">
+<SimpleData name="POSTDIST">RG12</SimpleData>
+<SimpleData name="STRUCUTRED">RG12</SimpleData>
+<SimpleData name="POSTAREA">RG</SimpleData>
+<SimpleData name="POSTCODE_C">143</SimpleData>
+<SimpleData name="AREA_KM">26.43973552734</SimpleData>
+<SimpleData name="AREA_MI">10.2084389584</SimpleData>
+<SimpleData name="X_COORD">487274.16733333</SimpleData>
+<SimpleData name="Y_COORD">168005.33216667</SimpleData>
+<SimpleData name="LONGITUDE">-0.745174</SimpleData>
+<SimpleData name="LATITUDE">51.40385733333</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-0.754521882147515,51.3619688829705,0.0 -0.768355425526281,51.3615983362682,0.0 -0.768540879205683,51.3632549091523,0.0 -0.76587147598527,51.3674440984114,0.0 -0.765511792826254,51.3717385710108,0.0 -0.772885921633462,51.3801876056102,0.0 -0.773886025382837,51.382554047293,0.0 -0.771835899466358,51.387208479947,0.0 -0.774289844729234,51.3868024939756,0.0 -0.783313180308479,51.3982534908878,0.0 -0.786998537335521,51.404028682553,0.0 -0.786494996753206,51.4078450752306,0.0 -0.790274942210944,51.411714736098,0.0 -0.79070043133621,51.4135714951391,0.0 -0.790575603551743,51.4150359454348,0.0 -0.787553691725609,51.4183766728621,0.0 -0.78539264472989,51.4196042054127,0.0 -0.783658700077903,51.4188309336122,0.0 -0.784202500708635,51.4162199185259,0.0 -0.780811087203485,51.4166702145935,0.0 -0.780556259317288,51.4176027454016,0.0 -0.778164649941266,51.4183061726638,0.0 -0.775731802374648,51.4173186437014,0.0 -0.773831885822827,51.4200683549876,0.0 -0.766430100370233,51.4177516962078,0.0 -0.763597359018964,51.4177398394221,0.0 -0.763285565226156,51.4170351885863,0.0 -0.761886026016953,51.4182703117855,0.0 -0.755656267584199,51.4173141313914,0.0 -0.756780011673017,51.4193583032875,0.0 -0.754521882147515,51.4191320050457,0.0 -0.754521882147515,51.3619688829705,0.0</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_2086">
+<name>kml_2086</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>RG2</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>RG 2</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>472</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>26.78521027521</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>10.34182750427</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>472470.9982</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>169658.2998</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-0.9576376</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.4208044</td>
+</tr></table></center><center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>RG2</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>RG 2</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>472</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>26.78521027521</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>10.34182750427</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>472470.9982</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>169658.2998</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-0.9576376</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.4208044</td>
+</tr></table></center>]]></description>
+<styleUrl>#kml_style_ft_AMD_POSTCODE_DISTRICT_BOUNDARIES</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_AMD_POSTCODE_DISTRICT_BOUNDARIES">
+<SimpleData name="POSTDIST">RG2</SimpleData>
+<SimpleData name="STRUCUTRED">RG 2</SimpleData>
+<SimpleData name="POSTAREA">RG</SimpleData>
+<SimpleData name="POSTCODE_C">472</SimpleData>
+<SimpleData name="AREA_KM">26.78521027521</SimpleData>
+<SimpleData name="AREA_MI">10.34182750427</SimpleData>
+<SimpleData name="X_COORD">472470.9982</SimpleData>
+<SimpleData name="Y_COORD">169658.2998</SimpleData>
+<SimpleData name="LONGITUDE">-0.9576376</SimpleData>
+<SimpleData name="LATITUDE">51.4208044</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-0.960531419980801,51.444918537593,0.0 -0.954683348322653,51.4426635449857,0.0 -0.944786305759371,51.4367445090565,0.0 -0.943328065390572,51.4359166936745,0.0 -0.944020075967607,51.4314809364002,0.0 -0.945311761853914,51.4309890689113,0.0 -0.943920188985901,51.4308236366103,0.0 -0.944084534345038,51.4299349088011,0.0 -0.945295091514087,51.4298379278907,0.0 -0.944837102469876,51.4291144817363,0.0 -0.942077283280862,51.4290266887896,0.0 -0.941818431345115,51.4265335841038,0.0 -0.939779037291177,51.4251573188776,0.0 -0.940309583032251,51.4246045980723,0.0 -0.943519540493396,51.4238692969136,0.0 -0.945688460886984,51.4221173759456,0.0 -0.947541330967892,51.4184653816794,0.0 -0.946928595518554,51.417596628136,0.0 -0.948611459544261,51.4169553296771,0.0 -0.949517039630595,51.4144636914338,0.0 -0.938709450186655,51.4185475792738,0.0 -0.932693059573356,51.4200036278378,0.0 -0.926092402255169,51.4205997577666,0.0 -0.915622460614565,51.4199909051694,0.0 -0.907652207577648,51.4207171483722,0.0 -0.909610151474941,51.4194225675674,0.0 -0.90860524519309,51.4169314305579,0.0 -0.906612746942788,51.4166610730348,0.0 -0.901599008768262,51.4140515180734,0.0 -0.895154665866865,51.4147372615394,0.0 -0.896315664897008,51.4113132572459,0.0 -0.894833371283617,51.4095728800402,0.0 -0.882868121937466,51.4049545256935,0.0 -0.882705892314629,51.4015809569202,0.0 -0.886421996935423,51.399512163823,0.0 -0.894163983596048,51.3985783686205,0.0 -0.89681087684861,51.3955100552291,0.0 -0.889875048343257,51.39463534107,0.0 -0.894571090556104,51.3930161384939,0.0 -0.896364999892422,51.3931320170358,0.0 -0.899177987085884,51.390308014593,0.0 -0.897700543972694,51.3889902093438,0.0 -0.897736175173238,51.3875069362075,0.0 -0.895448542631901,51.3864242818375,0.0 -0.888438332067414,51.385117114071,0.0 -0.886276725196995,51.3835859183294,0.0 -0.898888027946244,51.3784358253793,0.0 -0.901825755908527,51.3763592293253,0.0 -0.9042444454665,51.3725422936502,0.0 -0.904751282565906,51.3771959215221,0.0 -0.907854504972834,51.3808306294724,0.0 -0.908162539290779,51.3835850792146,0.0 -0.919822187103927,51.3851857990048,0.0 -0.922299556283709,51.3843363620131,0.0 -0.923171021135442,51.3882288738465,0.0 -0.928245848414351,51.3856947037465,0.0 -0.936197294625736,51.3842654596936,0.0 -0.943191478021915,51.3863160182313,0.0 -0.947744912784133,51.388919676519,0.0 -0.955148943873997,51.3913327735252,0.0 -0.957677444338816,51.3939089814774,0.0 -0.959803365793796,51.39333438748,0.0 -0.96104982872515,51.3941457701931,0.0 -0.961978568784861,51.3962940997411,0.0 -0.958847707083246,51.3961763520906,0.0 -0.958583163140967,51.4027650977646,0.0 -0.961973379103005,51.404782437181,0.0 -0.962791514629429,51.4086561818484,0.0 -0.959093993485516,51.4100262063338,0.0 -0.955546511615571,51.4130068984539,0.0 -0.959046235166839,51.4121298303175,0.0 -0.966113666421016,51.4118057326201,0.0 -0.97213697233858,51.4125150951636,0.0 -0.985968343030179,51.4171224722795,0.0 -0.995696107413965,51.4194542550399,0.0 -0.997102324486652,51.4222267295468,0.0 -0.996178127685679,51.4223986946813,0.0 -0.995307874895349,51.4247021288077,0.0 -0.988275721966565,51.4272583561941,0.0 -0.985475480894899,51.4341938686836,0.0 -0.98293928274355,51.4337402257679,0.0 -0.97798299977964,51.4347222797083,0.0 -0.977112804363649,51.4408381148074,0.0 -0.981877510270329,51.4426779788054,0.0 -0.975500460262425,51.4460213759194,0.0 -0.975407926787458,51.4475851607628,0.0 -0.973987034054545,51.4474198226978,0.0 -0.973536816489004,51.4482431703626,0.0 -0.972030954524328,51.448014148848,0.0 -0.972062840722032,51.4465937586475,0.0 -0.970508615994452,51.4459596863305,0.0 -0.966368603693421,51.446408785932,0.0 -0.965792226525997,51.4458102229755,0.0 -0.965285156989498,51.4465970797218,0.0 -0.964946667334433,51.4443821011808,0.0 -0.960531419980801,51.444918537593,0.0</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_2093">
+<name>kml_2093</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>RG26</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>RG26</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>286</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>91.16054876467</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>35.19728465195</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>459682.501</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>160088.834</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-1.14315633333</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.33625166667</td>
+</tr></table></center><center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>RG26</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>RG26</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>286</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>91.16054876467</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>35.19728465195</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>459682.501</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>160088.834</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-1.14315633333</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.33625166667</td>
+</tr></table></center>]]></description>
+<styleUrl>#kml_style_ft_AMD_POSTCODE_DISTRICT_BOUNDARIES</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_AMD_POSTCODE_DISTRICT_BOUNDARIES">
+<SimpleData name="POSTDIST">RG26</SimpleData>
+<SimpleData name="STRUCUTRED">RG26</SimpleData>
+<SimpleData name="POSTAREA">RG</SimpleData>
+<SimpleData name="POSTCODE_C">286</SimpleData>
+<SimpleData name="AREA_KM">91.16054876467</SimpleData>
+<SimpleData name="AREA_MI">35.19728465195</SimpleData>
+<SimpleData name="X_COORD">459682.501</SimpleData>
+<SimpleData name="Y_COORD">160088.834</SimpleData>
+<SimpleData name="LONGITUDE">-1.14315633333</SimpleData>
+<SimpleData name="LATITUDE">51.33625166667</SimpleData>
+</SchemaData>
+</ExtendedData>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-1.13767082312163,51.3575414962577,0.0 -1.13121008416422,51.3579891794573,0.0 -1.13027596480115,51.3595378512395,0.0 -1.12609625535533,51.3610623692574,0.0 -1.11593291462025,51.36300937229,0.0 -1.11129639434688,51.3575414962577,0.0 -1.13767082312163,51.3575414962577,0.0</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-1.14442908623654,51.3575414962577,0.0 -1.16376260480376,51.3575414962577,0.0 -1.16376260480376,51.3595857102088,0.0 -1.16277993847456,51.3594328606324,0.0 -1.1601011942665,51.3621922067898,0.0 -1.15810804588968,51.3612247668847,0.0 -1.15101137469856,51.3628550332812,0.0 -1.15002869323828,51.3616250857655,0.0 -1.14875425359577,51.3621912458786,0.0 -1.14737253154761,51.3607964868107,0.0 -1.14493100480594,51.3615609500603,0.0 -1.14414377498786,51.3598737554087,0.0 -1.14638484817967,51.3590718901762,0.0 -1.14442908623654,51.3575414962577,0.0</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+<Placemark id="kml_2094">
+<name>kml_2094</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>RG27</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>RG27</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>272</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>121.83010541749</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>47.03886667715</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>473706.91466667</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>156416.50033333</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-0.9426</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.30158466667</td>
+</tr></table></center><center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>RG27</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>RG27</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>272</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>121.83010541749</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>47.03886667715</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>473706.91466667</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>156416.50033333</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-0.9426</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.30158466667</td>
+</tr></table></center>]]></description>
+<styleUrl>#kml_style_ft_AMD_POSTCODE_DISTRICT_BOUNDARIES</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_AMD_POSTCODE_DISTRICT_BOUNDARIES">
+<SimpleData name="POSTDIST">RG27</SimpleData>
+<SimpleData name="STRUCUTRED">RG27</SimpleData>
+<SimpleData name="POSTAREA">RG</SimpleData>
+<SimpleData name="POSTCODE_C">272</SimpleData>
+<SimpleData name="AREA_KM">121.83010541749</SimpleData>
+<SimpleData name="AREA_MI">47.03886667715</SimpleData>
+<SimpleData name="X_COORD">473706.91466667</SimpleData>
+<SimpleData name="Y_COORD">156416.50033333</SimpleData>
+<SimpleData name="LONGITUDE">-0.9426</SimpleData>
+<SimpleData name="LATITUDE">51.30158466667</SimpleData>
+</SchemaData>
+</ExtendedData>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-0.986937915957512,51.3575414962577,0.0 -0.986831224679714,51.3578910508697,0.0 -0.986731052283636,51.3598234532558,0.0 -0.987884667652003,51.360921407132,0.0 -0.983926557565929,51.3599970223644,0.0 -0.975166989643437,51.3599207487872,0.0 -0.970809565985225,51.3588843790806,0.0 -0.971320128471916,51.3575414962577,0.0 -0.986937915957512,51.3575414962577,0.0</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-0.940968988520691,51.3575414962577,0.0 -0.939464002272792,51.360430301037,0.0 -0.939662282133002,51.3624193931766,0.0 -0.937049482881557,51.364841479273,0.0 -0.930185886895425,51.3647340747456,0.0 -0.924066403948482,51.365972894528,0.0 -0.917778937365426,51.3645752181901,0.0 -0.918348971533907,51.3629349583938,0.0 -0.913764759072777,51.3630274021073,0.0 -0.913758368253445,51.363908579524,0.0 -0.912405655040959,51.3640128940095,0.0 -0.906743239567527,51.36353760922,0.0 -0.904242118704875,51.3612033330862,0.0 -0.900247912414815,51.3606533357293,0.0 -0.892474313353265,51.3578105582422,0.0 -0.889471743447262,51.3578450687747,0.0 -0.888958162742569,51.3575414962577,0.0 -0.940968988520691,51.3575414962577,0.0</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+<Placemark id="kml_2097">
+<name>kml_2097</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>RG30</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>RG30</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>113</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>25.02564416114</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>9.66245522953</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>468500.0996</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>172945.3008</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-1.0141014</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.4508538</td>
+</tr></table></center><center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>RG30</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>RG30</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>113</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>25.02564416114</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>9.66245522953</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>468500.0996</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>172945.3008</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-1.0141014</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.4508538</td>
+</tr></table></center>]]></description>
+<styleUrl>#kml_style_ft_AMD_POSTCODE_DISTRICT_BOUNDARIES</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_AMD_POSTCODE_DISTRICT_BOUNDARIES">
+<SimpleData name="POSTDIST">RG30</SimpleData>
+<SimpleData name="STRUCUTRED">RG30</SimpleData>
+<SimpleData name="POSTAREA">RG</SimpleData>
+<SimpleData name="POSTCODE_C">113</SimpleData>
+<SimpleData name="AREA_KM">25.02564416114</SimpleData>
+<SimpleData name="AREA_MI">9.66245522953</SimpleData>
+<SimpleData name="X_COORD">468500.0996</SimpleData>
+<SimpleData name="Y_COORD">172945.3008</SimpleData>
+<SimpleData name="LONGITUDE">-1.0141014</SimpleData>
+<SimpleData name="LATITUDE">51.4508538</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-1.02402973849906,51.4436478003517,0.0 -1.02584530037216,51.4435279640444,0.0 -1.02631211328561,51.4445839485889,0.0 -1.03569706393495,51.4492113113819,0.0 -1.04227950897855,51.4482402080657,0.0 -1.0464076592611,51.4504049248401,0.0 -1.04535812407443,51.4538042929647,0.0 -1.04487632341868,51.4555177701099,0.0 -1.04235639724909,51.4562614809697,0.0 -1.04024215079804,51.4582494355803,0.0 -1.03946507004855,51.457905431913,0.0 -1.0360349250158,51.4605078172374,0.0 -1.0366488183238,51.4607466658746,0.0 -1.03626918588865,51.4610043275745,0.0 -1.03486682029905,51.4619728944419,0.0 -1.03346075916783,51.4617544688567,0.0 -1.03364041905098,51.4627899798024,0.0 -1.03074888296201,51.4647443812444,0.0 -1.03142093388524,51.4669978739704,0.0 -1.0266162971766,51.4715619293096,0.0 -1.01788672654662,51.4670831811152,0.0 -1.0134294538671,51.466820962798,0.0 -1.00725259818971,51.4688548844202,0.0 -1.00140494085834,51.4696325297981,0.0 -0.991084600934237,51.4669096473125,0.0 -0.979764248099303,51.4658406193717,0.0 -0.979011335057384,51.4647460021544,0.0 -0.987123164736487,51.4637733160586,0.0 -0.988630001470927,51.4626802786002,0.0 -0.988941675294987,51.4603001838352,0.0 -0.986967865358153,51.460382026642,0.0 -0.991158373645779,51.4544205987478,0.0 -0.991885434801933,51.4521249745039,0.0 -0.993878533331954,51.4478709262645,0.0 -0.996489143079008,51.4416888877738,0.0 -0.995841439310024,51.4384193338654,0.0 -0.992627415142416,51.438679516966,0.0 -0.988153051974226,51.4419319729955,0.0 -0.981877510270329,51.4426779788054,0.0 -0.977112804363649,51.4408381148074,0.0 -0.97798299977964,51.4347222797083,0.0 -0.98293928274355,51.4337402257679,0.0 -0.985475480894899,51.4341938686836,0.0 -0.988275721966565,51.4272583561941,0.0 -0.995307874895349,51.4247021288077,0.0 -0.996178127685679,51.4223986946813,0.0 -0.997102324486652,51.4222267295468,0.0 -0.995696107413965,51.4194542550399,0.0 -0.995333689858413,51.417616785921,0.0 -1.00061813463788,51.4173112728703,0.0 -1.00741987971742,51.4179895003312,0.0 -1.01099802199273,51.4167788474183,0.0 -1.01662982783607,51.4176983576191,0.0 -1.01181125939005,51.4110757819124,0.0 -1.01235043949774,51.4094078595463,0.0 -1.01490989884781,51.4073882769826,0.0 -1.01988003003082,51.4076007334303,0.0 -1.02373663789855,51.4054119129592,0.0 -1.02737406169039,51.4047318132122,0.0 -1.02970991579839,51.4030516464518,0.0 -1.03583139682238,51.4052332461528,0.0 -1.04062180890156,51.4037169477748,0.0 -1.04550096013472,51.4055192184854,0.0 -1.04743534176359,51.4072163968944,0.0 -1.05133758384064,51.4048472590304,0.0 -1.05387801355784,51.4043552236214,0.0 -1.05747736498124,51.4047978145103,0.0 -1.06047168047562,51.402501970867,0.0 -1.06241163994467,51.4039471648557,0.0 -1.06418190498622,51.4052562194398,0.0 -1.06312275811558,51.4092490710648,0.0 -1.06141534223921,51.4097749540959,0.0 -1.06362302119545,51.4129127923786,0.0 -1.06662650692605,51.4144114324435,0.0 -1.0655695925927,51.4154730091542,0.0 -1.06220205348472,51.415599029688,0.0 -1.06190960450328,51.4179435199855,0.0 -1.0603986590956,51.4186956935614,0.0 -1.06298471402884,51.4202270373778,0.0 -1.06198404690115,51.4213340620062,0.0 -1.06290522366373,51.4212964862851,0.0 -1.06266161908356,51.4219599270359,0.0 -1.06119580088668,51.4226045962549,0.0 -1.04482905531495,51.4232816283182,0.0 -1.04111570986862,51.4247889373696,0.0 -1.03950136302253,51.4263223331751,0.0 -1.05477089995136,51.4342693252889,0.0 -1.04878924153435,51.4355157734586,0.0 -1.04739885878463,51.4366554693066,0.0 -1.04129981955302,51.4386738357216,0.0 -1.03045643236916,51.4357342827828,0.0 -1.02457138771837,51.4364588227439,0.0 -1.02491550350278,51.4419196984444,0.0 -1.02402973849906,51.4436478003517,0.0</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_2098">
+<name>kml_2098</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>RG31</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>RG31</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>170</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>8.54614276802</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>3.29968416994</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>466242.84075</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>173266.87575</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-1.04652475</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.4540145</td>
+</tr></table></center><center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>RG31</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>RG31</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>170</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>8.54614276802</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>3.29968416994</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>466242.84075</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>173266.87575</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-1.04652475</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.4540145</td>
+</tr></table></center>]]></description>
+<styleUrl>#kml_style_ft_AMD_POSTCODE_DISTRICT_BOUNDARIES</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_AMD_POSTCODE_DISTRICT_BOUNDARIES">
+<SimpleData name="POSTDIST">RG31</SimpleData>
+<SimpleData name="STRUCUTRED">RG31</SimpleData>
+<SimpleData name="POSTAREA">RG</SimpleData>
+<SimpleData name="POSTCODE_C">170</SimpleData>
+<SimpleData name="AREA_KM">8.54614276802</SimpleData>
+<SimpleData name="AREA_MI">3.29968416994</SimpleData>
+<SimpleData name="X_COORD">466242.84075</SimpleData>
+<SimpleData name="Y_COORD">173266.87575</SimpleData>
+<SimpleData name="LONGITUDE">-1.04652475</SimpleData>
+<SimpleData name="LATITUDE">51.4540145</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-1.04739885878463,51.4366554693066,0.0 -1.04878924153435,51.4355157734586,0.0 -1.05477089995136,51.4342693252889,0.0 -1.0656636108155,51.4390773182077,0.0 -1.06969347883409,51.4418428950054,0.0 -1.06480393306876,51.4438361205635,0.0 -1.0640039447143,51.4470758369151,0.0 -1.06154662856461,51.4497177394493,0.0 -1.05939653769751,51.450006237006,0.0 -1.06200509080795,51.4528170067708,0.0 -1.06142115711883,51.4551387661012,0.0 -1.05484905370298,51.4611555168788,0.0 -1.05685915275246,51.4635005350817,0.0 -1.06166877877971,51.4655262578642,0.0 -1.05988961807228,51.4673373619198,0.0 -1.05750081185516,51.4672912258573,0.0 -1.05894255282733,51.4699913887949,0.0 -1.05819797576748,51.4746881117343,0.0 -1.05598008646164,51.4782040232397,0.0 -1.05218803498641,51.4777418772911,0.0 -1.05046608231814,51.4802276730171,0.0 -1.04851908417735,51.4796813471706,0.0 -1.04632702556357,51.4763815048732,0.0 -1.03591743287472,51.4742822921324,0.0 -1.0350324482458,51.4752820774253,0.0 -1.0266162971766,51.4715619293096,0.0 -1.03142093388524,51.4669978739704,0.0 -1.03074888296201,51.4647443812444,0.0 -1.03364041905098,51.4627899798024,0.0 -1.03346075916783,51.4617544688567,0.0 -1.03486682029905,51.4619728944419,0.0 -1.03626918588865,51.4610043275745,0.0 -1.0366488183238,51.4607466658746,0.0 -1.0360349250158,51.4605078172374,0.0 -1.03946507004855,51.457905431913,0.0 -1.04024215079804,51.4582494355803,0.0 -1.04235639724909,51.4562614809697,0.0 -1.04487632341868,51.4555177701099,0.0 -1.04535812407443,51.4538042929647,0.0 -1.0464076592611,51.4504049248401,0.0 -1.04227950897855,51.4482402080657,0.0 -1.03569706393495,51.4492113113819,0.0 -1.02631211328561,51.4445839485889,0.0 -1.02584530037216,51.4435279640444,0.0 -1.02402973849906,51.4436478003517,0.0 -1.02491550350278,51.4419196984444,0.0 -1.02457138771837,51.4364588227439,0.0 -1.03045643236916,51.4357342827828,0.0 -1.04129981955302,51.4386738357216,0.0 -1.04739885878463,51.4366554693066,0.0</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_2099">
+<name>kml_2099</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>RG4</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>RG 4</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>248</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>51.24166044926</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>19.78451570676</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>471717.9002</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>176723.8994</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-0.9670352</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.4844264</td>
+</tr></table></center><center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>RG4</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>RG 4</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>248</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>51.24166044926</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>19.78451570676</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>471717.9002</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>176723.8994</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-0.9670352</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.4844264</td>
+</tr></table></center>]]></description>
+<styleUrl>#kml_style_ft_AMD_POSTCODE_DISTRICT_BOUNDARIES</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_AMD_POSTCODE_DISTRICT_BOUNDARIES">
+<SimpleData name="POSTDIST">RG4</SimpleData>
+<SimpleData name="STRUCUTRED">RG 4</SimpleData>
+<SimpleData name="POSTAREA">RG</SimpleData>
+<SimpleData name="POSTCODE_C">248</SimpleData>
+<SimpleData name="AREA_KM">51.24166044926</SimpleData>
+<SimpleData name="AREA_MI">19.78451570676</SimpleData>
+<SimpleData name="X_COORD">471717.9002</SimpleData>
+<SimpleData name="Y_COORD">176723.8994</SimpleData>
+<SimpleData name="LONGITUDE">-0.9670352</SimpleData>
+<SimpleData name="LATITUDE">51.4844264</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-1.02297190809705,51.5432549370844,0.0 -1.00889084195839,51.5432549370844,0.0 -1.00780508577305,51.540937534552,0.0 -1.01307532670482,51.5392734926499,0.0 -1.02129157904319,51.5387219580745,0.0 -1.02134748148455,51.5361147683586,0.0 -1.01949539174671,51.5344089053299,0.0 -1.00385556528797,51.5322809741734,0.0 -0.998790615932722,51.5292077252446,0.0 -0.994989926811492,51.5289773841985,0.0 -0.992220097405009,51.5277577127464,0.0 -0.994561803677363,51.5261593052529,0.0 -0.991893937134515,51.5242481527459,0.0 -0.990619763856108,51.5251633488586,0.0 -0.981422355323684,51.5206779218727,0.0 -0.979522488169062,51.5218483532736,0.0 -0.978306049774742,51.5214601329754,0.0 -0.976009525720229,51.52424554126,0.0 -0.967494237700516,51.5208978833533,0.0 -0.967613798458655,51.5187949265604,0.0 -0.959638561524184,51.5126909390243,0.0 -0.964062288238274,51.5095290246756,0.0 -0.949607509557857,51.4995814920145,0.0 -0.945606832149334,51.4981428393231,0.0 -0.938643471047844,51.4971269195067,0.0 -0.931900250322782,51.4940984668739,0.0 -0.924047315498096,51.4935861442184,0.0 -0.919352508617121,51.4917086407376,0.0 -0.919734770715798,51.4895541122251,0.0 -0.926296259677585,51.4849206033079,0.0 -0.925002125089165,51.4842253893131,0.0 -0.923039236132013,51.4795136330919,0.0 -0.913785574775713,51.4756337547588,0.0 -0.911833245238758,51.4765957632346,0.0 -0.900985958617693,51.4737880440454,0.0 -0.897898721808763,51.4746313069061,0.0 -0.891317828612293,51.4746591808209,0.0 -0.887242351705491,51.4717252296792,0.0 -0.884224851138866,51.472065213188,0.0 -0.882620904552395,51.4711237709869,0.0 -0.880308117420755,51.4697349841298,0.0 -0.886831532103032,51.4667128410209,0.0 -0.891193326678881,51.4673206640442,0.0 -0.896213200563132,51.4669093814575,0.0 -0.901874872739832,51.4625475105597,0.0 -0.902371383566873,51.4634513559193,0.0 -0.915645343245422,51.4609582286526,0.0 -0.916657635144495,51.4601492863221,0.0 -0.919525314229508,51.4600139309295,0.0 -0.925085867756046,51.4616655702213,0.0 -0.930868199089971,51.461232816256,0.0 -0.933633612849483,51.461779556426,0.0 -0.942376876607824,51.4602851479689,0.0 -0.949649915068886,51.4594872615044,0.0 -0.955433922741908,51.4614811494693,0.0 -0.957219900209647,51.4620635465524,0.0 -0.960820467673171,51.4626170572959,0.0 -0.967896666717619,51.4609710342508,0.0 -0.970674158891757,51.4622813572853,0.0 -0.970892976301088,51.4634341792896,0.0 -0.977296068741048,51.4654864268467,0.0 -0.979764248099303,51.4658406193717,0.0 -0.991084600934237,51.4669096473125,0.0 -1.00140494085834,51.4696325297981,0.0 -1.00725259818971,51.4688548844202,0.0 -1.0134294538671,51.466820962798,0.0 -1.01788672654662,51.4670831811152,0.0 -1.0266162971766,51.4715619293096,0.0 -1.0350324482458,51.4752820774253,0.0 -1.03907210926433,51.477644163647,0.0 -1.03760952228913,51.4841961783335,0.0 -1.04004486104472,51.4868686575605,0.0 -1.04282306525161,51.4890044483938,0.0 -1.05193699370368,51.491937820601,0.0 -1.04849950549913,51.495848333533,0.0 -1.04535582661512,51.5049763708674,0.0 -1.03432449018516,51.5142644963151,0.0 -1.03552057798269,51.5149486948851,0.0 -1.03471013127617,51.5157962716234,0.0 -1.03675300209227,51.5173326777408,0.0 -1.03154632011252,51.5188723566846,0.0 -1.02830600897908,51.5207877728804,0.0 -1.03616416861015,51.5281629017494,0.0 -1.03401553957648,51.5288735367428,0.0 -1.0316306030878,51.5284942223748,0.0 -1.02748706235196,51.5267604713068,0.0 -1.02010119181341,51.5276791201953,0.0 -1.02495122567031,51.5314241194014,0.0 -1.02443124135109,51.5415894638979,0.0 -1.02297190809705,51.5432549370844,0.0</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_2100">
+<name>kml_2100</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>RG40</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>RG40</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>173</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>43.90278809069</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>16.95096124785</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>481428.7998</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>167608.2006</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-0.829283</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.4011552</td>
+</tr></table></center><center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>RG40</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>RG40</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>173</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>43.90278809069</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>16.95096124785</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>481428.7998</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>167608.2006</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-0.829283</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.4011552</td>
+</tr></table></center>]]></description>
+<styleUrl>#kml_style_ft_AMD_POSTCODE_DISTRICT_BOUNDARIES</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_AMD_POSTCODE_DISTRICT_BOUNDARIES">
+<SimpleData name="POSTDIST">RG40</SimpleData>
+<SimpleData name="STRUCUTRED">RG40</SimpleData>
+<SimpleData name="POSTAREA">RG</SimpleData>
+<SimpleData name="POSTCODE_C">173</SimpleData>
+<SimpleData name="AREA_KM">43.90278809069</SimpleData>
+<SimpleData name="AREA_MI">16.95096124785</SimpleData>
+<SimpleData name="X_COORD">481428.7998</SimpleData>
+<SimpleData name="Y_COORD">167608.2006</SimpleData>
+<SimpleData name="LONGITUDE">-0.829283</SimpleData>
+<SimpleData name="LATITUDE">51.4011552</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-0.888958162742569,51.3575414962577,0.0 -0.889471743447262,51.3578450687747,0.0 -0.892474313353265,51.3578105582422,0.0 -0.900247912414815,51.3606533357293,0.0 -0.904242118704875,51.3612033330862,0.0 -0.906743239567527,51.36353760922,0.0 -0.901094582893412,51.3624866799649,0.0 -0.898818214060965,51.3633735169851,0.0 -0.9042444454665,51.3725422936502,0.0 -0.901825755908527,51.3763592293253,0.0 -0.898888027946244,51.3784358253793,0.0 -0.886276725196995,51.3835859183294,0.0 -0.888438332067414,51.385117114071,0.0 -0.895448542631901,51.3864242818375,0.0 -0.897736175173238,51.3875069362075,0.0 -0.897700543972694,51.3889902093438,0.0 -0.899177987085884,51.390308014593,0.0 -0.896364999892422,51.3931320170358,0.0 -0.894571090556104,51.3930161384939,0.0 -0.889875048343257,51.39463534107,0.0 -0.884372820070809,51.3962915472919,0.0 -0.88034559235112,51.3958035858122,0.0 -0.871508783211961,51.3974272914028,0.0 -0.868921329073823,51.395675932904,0.0 -0.865324705996366,51.3958029844199,0.0 -0.862148165637857,51.394063745922,0.0 -0.854631270637025,51.3923179580467,0.0 -0.847152391268785,51.3942319410148,0.0 -0.844965018519505,51.3960447089957,0.0 -0.841560009787263,51.3954087227852,0.0 -0.841671651028309,51.3972531106815,0.0 -0.843865209665623,51.3991900580122,0.0 -0.842261514579322,51.3995070248693,0.0 -0.839561758310687,51.3988328140671,0.0 -0.838998993336828,51.3966422689829,0.0 -0.836316289262466,51.3958692748213,0.0 -0.83497016493963,51.4007655781834,0.0 -0.839993630255734,51.4027846310635,0.0 -0.83904012136295,51.4046724984892,0.0 -0.839587383038097,51.4063414128276,0.0 -0.843153722439842,51.4114391519752,0.0 -0.841057375548095,51.4113195616159,0.0 -0.840000573723252,51.4121723690233,0.0 -0.839577667867868,51.4118354795175,0.0 -0.838762850644118,51.4122140495824,0.0 -0.84011259708153,51.4128568517474,0.0 -0.840115705238503,51.4138729608468,0.0 -0.838814061864862,51.4164408519268,0.0 -0.840935631962285,51.4206880383952,0.0 -0.839582168854906,51.4275625214537,0.0 -0.854750646079194,51.4312814390268,0.0 -0.850761628008914,51.4337511678178,0.0 -0.832410258504936,51.4403228824714,0.0 -0.821104536095515,51.446342243083,0.0 -0.805711149806685,51.4522651162944,0.0 -0.805027722340516,51.4481217654577,0.0 -0.801887515937658,51.4432880321683,0.0 -0.802081511013311,51.4358716752383,0.0 -0.803369543286422,51.4333760598772,0.0 -0.805895747530064,51.4313875523992,0.0 -0.807128076865331,51.4271559158504,0.0 -0.793093038395988,51.4215540713252,0.0 -0.793571914164895,51.4181150538151,0.0 -0.792284021918802,51.415143450975,0.0 -0.795348115052747,51.4140059851439,0.0 -0.79070043133621,51.4135714951391,0.0 -0.790274942210944,51.411714736098,0.0 -0.786494996753206,51.4078450752306,0.0 -0.786998537335521,51.404028682553,0.0 -0.783313180308479,51.3982534908878,0.0 -0.774289844729234,51.3868024939756,0.0 -0.771835899466358,51.387208479947,0.0 -0.773886025382837,51.382554047293,0.0 -0.775754132191327,51.3820160477357,0.0 -0.785123860106717,51.3814481398884,0.0 -0.789975380277499,51.3832877804685,0.0 -0.792122257316315,51.3819790341789,0.0 -0.794696833773702,51.3818886690645,0.0 -0.795782023690711,51.3837971528493,0.0 -0.798314747161631,51.3836612455544,0.0 -0.803033664380167,51.3829003002669,0.0 -0.808346768920324,51.3808322846588,0.0 -0.827005205028653,51.3777474416412,0.0 -0.826447219739586,51.3748464280193,0.0 -0.832732701446042,51.3740099739588,0.0 -0.837816776710988,51.3604644229946,0.0 -0.837062503912803,51.3575414962577,0.0 -0.888958162742569,51.3575414962577,0.0</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_2101">
+<name>kml_2101</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>RG41</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>RG41</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>139</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>17.70723753003</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>6.83680263217</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>479207.9</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>168911.2006</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-0.8609226</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.4131868</td>
+</tr></table></center><center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>RG41</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>RG41</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>139</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>17.70723753003</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>6.83680263217</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>479207.9</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>168911.2006</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-0.8609226</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.4131868</td>
+</tr></table></center>]]></description>
+<styleUrl>#kml_style_ft_AMD_POSTCODE_DISTRICT_BOUNDARIES</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_AMD_POSTCODE_DISTRICT_BOUNDARIES">
+<SimpleData name="POSTDIST">RG41</SimpleData>
+<SimpleData name="STRUCUTRED">RG41</SimpleData>
+<SimpleData name="POSTAREA">RG</SimpleData>
+<SimpleData name="POSTCODE_C">139</SimpleData>
+<SimpleData name="AREA_KM">17.70723753003</SimpleData>
+<SimpleData name="AREA_MI">6.83680263217</SimpleData>
+<SimpleData name="X_COORD">479207.9</SimpleData>
+<SimpleData name="Y_COORD">168911.2006</SimpleData>
+<SimpleData name="LONGITUDE">-0.8609226</SimpleData>
+<SimpleData name="LATITUDE">51.4131868</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-0.906612746942788,51.4166610730348,0.0 -0.90860524519309,51.4169314305579,0.0 -0.909610151474941,51.4194225675674,0.0 -0.907652207577648,51.4207171483722,0.0 -0.907463092049322,51.4214077481081,0.0 -0.903253245754672,51.4224385395691,0.0 -0.901971601933516,51.4249083297963,0.0 -0.897224789689329,51.4255201833633,0.0 -0.898488696179867,51.4261974589235,0.0 -0.897079310843624,51.427982535723,0.0 -0.899774788553989,51.4349317395059,0.0 -0.900382027147876,51.4372033744478,0.0 -0.898234272233713,51.4391704028749,0.0 -0.895629349671715,51.4391998324299,0.0 -0.894328384427167,51.4406443008454,0.0 -0.881028835052464,51.439672877008,0.0 -0.874312781118803,51.438376691897,0.0 -0.854750646079194,51.4312814390268,0.0 -0.839582168854906,51.4275625214537,0.0 -0.840935631962285,51.4206880383952,0.0 -0.838814061864862,51.4164408519268,0.0 -0.840115705238503,51.4138729608468,0.0 -0.84011259708153,51.4128568517474,0.0 -0.838762850644118,51.4122140495824,0.0 -0.839577667867868,51.4118354795175,0.0 -0.840000573723252,51.4121723690233,0.0 -0.841057375548095,51.4113195616159,0.0 -0.843153722439842,51.4114391519752,0.0 -0.839587383038097,51.4063414128276,0.0 -0.83904012136295,51.4046724984892,0.0 -0.839993630255734,51.4027846310635,0.0 -0.83497016493963,51.4007655781834,0.0 -0.836316289262466,51.3958692748213,0.0 -0.838998993336828,51.3966422689829,0.0 -0.839561758310687,51.3988328140671,0.0 -0.842261514579322,51.3995070248693,0.0 -0.843865209665623,51.3991900580122,0.0 -0.841671651028309,51.3972531106815,0.0 -0.841560009787263,51.3954087227852,0.0 -0.844965018519505,51.3960447089957,0.0 -0.847152391268785,51.3942319410148,0.0 -0.854631270637025,51.3923179580467,0.0 -0.862148165637857,51.394063745922,0.0 -0.865324705996366,51.3958029844199,0.0 -0.868921329073823,51.395675932904,0.0 -0.871508783211961,51.3974272914028,0.0 -0.88034559235112,51.3958035858122,0.0 -0.884372820070809,51.3962915472919,0.0 -0.889875048343257,51.39463534107,0.0 -0.89681087684861,51.3955100552291,0.0 -0.894163983596048,51.3985783686205,0.0 -0.886421996935423,51.399512163823,0.0 -0.882705892314629,51.4015809569202,0.0 -0.882868121937466,51.4049545256935,0.0 -0.894833371283617,51.4095728800402,0.0 -0.896315664897008,51.4113132572459,0.0 -0.895154665866865,51.4147372615394,0.0 -0.901599008768262,51.4140515180734,0.0 -0.906612746942788,51.4166610730348,0.0</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_2102">
+<name>kml_2102</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>RG42</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>RG42</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>34</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>32.00857050188</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>12.35857816263</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>487189.35571429</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>170991.99942857</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-0.74565814286</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.43072071429</td>
+</tr></table></center><center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>RG42</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>RG42</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>34</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>32.00857050188</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>12.35857816263</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>487189.35571429</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>170991.99942857</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-0.74565814286</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.43072071429</td>
+</tr></table></center>]]></description>
+<styleUrl>#kml_style_ft_AMD_POSTCODE_DISTRICT_BOUNDARIES</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_AMD_POSTCODE_DISTRICT_BOUNDARIES">
+<SimpleData name="POSTDIST">RG42</SimpleData>
+<SimpleData name="STRUCUTRED">RG42</SimpleData>
+<SimpleData name="POSTAREA">RG</SimpleData>
+<SimpleData name="POSTCODE_C">34</SimpleData>
+<SimpleData name="AREA_KM">32.00857050188</SimpleData>
+<SimpleData name="AREA_MI">12.35857816263</SimpleData>
+<SimpleData name="X_COORD">487189.35571429</SimpleData>
+<SimpleData name="Y_COORD">170991.99942857</SimpleData>
+<SimpleData name="LONGITUDE">-0.74565814286</SimpleData>
+<SimpleData name="LATITUDE">51.43072071429</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-0.754521882147515,51.4191320050457,0.0 -0.756780011673017,51.4193583032875,0.0 -0.755656267584199,51.4173141313914,0.0 -0.761886026016953,51.4182703117855,0.0 -0.763285565226156,51.4170351885863,0.0 -0.763597359018964,51.4177398394221,0.0 -0.766430100370233,51.4177516962078,0.0 -0.773831885822827,51.4200683549876,0.0 -0.775731802374648,51.4173186437014,0.0 -0.778164649941266,51.4183061726638,0.0 -0.780556259317288,51.4176027454016,0.0 -0.780811087203485,51.4166702145935,0.0 -0.784202500708635,51.4162199185259,0.0 -0.783658700077903,51.4188309336122,0.0 -0.78539264472989,51.4196042054127,0.0 -0.787553691725609,51.4183766728621,0.0 -0.790575603551743,51.4150359454348,0.0 -0.79070043133621,51.4135714951391,0.0 -0.795348115052747,51.4140059851439,0.0 -0.792284021918802,51.415143450975,0.0 -0.793571914164895,51.4181150538151,0.0 -0.793093038395988,51.4215540713252,0.0 -0.807128076865331,51.4271559158504,0.0 -0.805895747530064,51.4313875523992,0.0 -0.803369543286422,51.4333760598772,0.0 -0.802081511013311,51.4358716752383,0.0 -0.801887515937658,51.4432880321683,0.0 -0.805027722340516,51.4481217654577,0.0 -0.805711149806685,51.4522651162944,0.0 -0.796647190553264,51.4570820118885,0.0 -0.781798374354887,51.4633759986852,0.0 -0.77292037057266,51.4691371657522,0.0 -0.768296921331155,51.4697451968828,0.0 -0.754521882147515,51.4651449380242,0.0 -0.754521882147515,51.4191320050457,0.0</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_2103">
+<name>kml_2103</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>RG45</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>RG45</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>158</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>11.09016790178</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>4.28193776547</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>483577.7475</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>164138.2525</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-0.7992185</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.369648</td>
+</tr></table></center><center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>RG45</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>RG45</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>158</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>11.09016790178</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>4.28193776547</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>483577.7475</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>164138.2525</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-0.7992185</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.369648</td>
+</tr></table></center>]]></description>
+<styleUrl>#kml_style_ft_AMD_POSTCODE_DISTRICT_BOUNDARIES</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_AMD_POSTCODE_DISTRICT_BOUNDARIES">
+<SimpleData name="POSTDIST">RG45</SimpleData>
+<SimpleData name="STRUCUTRED">RG45</SimpleData>
+<SimpleData name="POSTAREA">RG</SimpleData>
+<SimpleData name="POSTCODE_C">158</SimpleData>
+<SimpleData name="AREA_KM">11.09016790178</SimpleData>
+<SimpleData name="AREA_MI">4.28193776547</SimpleData>
+<SimpleData name="X_COORD">483577.7475</SimpleData>
+<SimpleData name="Y_COORD">164138.2525</SimpleData>
+<SimpleData name="LONGITUDE">-0.7992185</SimpleData>
+<SimpleData name="LATITUDE">51.369648</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-0.811881675652029,51.3575414962577,0.0 -0.820775305983213,51.3579382899668,0.0 -0.824367184211037,51.3618139864958,0.0 -0.836536884981072,51.3575414962577,0.0 -0.837062503912803,51.3575414962577,0.0 -0.837816776710988,51.3604644229946,0.0 -0.832732701446042,51.3740099739588,0.0 -0.826447219739586,51.3748464280193,0.0 -0.827005205028653,51.3777474416412,0.0 -0.808346768920324,51.3808322846588,0.0 -0.803033664380167,51.3829003002669,0.0 -0.798314747161631,51.3836612455544,0.0 -0.795782023690711,51.3837971528493,0.0 -0.794696833773702,51.3818886690645,0.0 -0.792122257316315,51.3819790341789,0.0 -0.789975380277499,51.3832877804685,0.0 -0.785123860106717,51.3814481398884,0.0 -0.775754132191327,51.3820160477357,0.0 -0.773886025382837,51.382554047293,0.0 -0.772885921633462,51.3801876056102,0.0 -0.765511792826254,51.3717385710108,0.0 -0.76587147598527,51.3674440984114,0.0 -0.768540879205683,51.3632549091523,0.0 -0.768355425526281,51.3615983362682,0.0 -0.771374290853018,51.3615041732794,0.0 -0.790569220664559,51.3596625983044,0.0 -0.794608162735398,51.3579058632052,0.0 -0.796754405176863,51.3575414962577,0.0 -0.811881675652029,51.3575414962577,0.0</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_2104">
+<name>kml_2104</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>RG5</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>RG 5</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>210</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>8.38828754117</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>3.23873592612</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>476578.9975</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>173149.248</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-0.8978035</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.4516525</td>
+</tr></table></center><center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>RG5</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>RG 5</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>210</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>8.38828754117</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>3.23873592612</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>476578.9975</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>173149.248</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-0.8978035</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.4516525</td>
+</tr></table></center>]]></description>
+<styleUrl>#kml_style_ft_AMD_POSTCODE_DISTRICT_BOUNDARIES</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_AMD_POSTCODE_DISTRICT_BOUNDARIES">
+<SimpleData name="POSTDIST">RG5</SimpleData>
+<SimpleData name="STRUCUTRED">RG 5</SimpleData>
+<SimpleData name="POSTAREA">RG</SimpleData>
+<SimpleData name="POSTCODE_C">210</SimpleData>
+<SimpleData name="AREA_KM">8.38828754117</SimpleData>
+<SimpleData name="AREA_MI">3.23873592612</SimpleData>
+<SimpleData name="X_COORD">476578.9975</SimpleData>
+<SimpleData name="Y_COORD">173149.248</SimpleData>
+<SimpleData name="LONGITUDE">-0.8978035</SimpleData>
+<SimpleData name="LATITUDE">51.4516525</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-0.871256739208307,51.4456217840008,0.0 -0.875822799681675,51.4395781322461,0.0 -0.874312781118803,51.438376691897,0.0 -0.881028835052464,51.439672877008,0.0 -0.894328384427167,51.4406443008454,0.0 -0.895629349671715,51.4391998324299,0.0 -0.898234272233713,51.4391704028749,0.0 -0.900994818176167,51.4392502411731,0.0 -0.916070500868135,51.4411799891849,0.0 -0.921382386755671,51.4429014268758,0.0 -0.920112657668141,51.4448770147076,0.0 -0.920387513351978,51.4509220822918,0.0 -0.918928608704271,51.4566364493444,0.0 -0.916657635144495,51.4601492863221,0.0 -0.915645343245422,51.4609582286526,0.0 -0.902371383566873,51.4634513559193,0.0 -0.901874872739832,51.4625475105597,0.0 -0.896213200563132,51.4669093814575,0.0 -0.891193326678881,51.4673206640442,0.0 -0.886831532103032,51.4667128410209,0.0 -0.882369016650653,51.4661128874221,0.0 -0.880101474995201,51.4628811680002,0.0 -0.875859448688264,51.4621122685396,0.0 -0.875084258800202,51.4596859856342,0.0 -0.876687198066687,51.4530203844891,0.0 -0.874114305549642,51.452303351916,0.0 -0.871439483514227,51.4498857537216,0.0 -0.871256739208307,51.4456217840008,0.0</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_2105">
+<name>kml_2105</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>RG6</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>RG 6</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>145</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>11.06362005518</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>4.2716875846</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>474651.61783333</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>171266.26216667</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-0.925937</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.43498</td>
+</tr></table></center><center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>RG6</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>RG 6</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>145</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>11.06362005518</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>4.2716875846</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>474651.61783333</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>171266.26216667</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-0.925937</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.43498</td>
+</tr></table></center>]]></description>
+<styleUrl>#kml_style_ft_AMD_POSTCODE_DISTRICT_BOUNDARIES</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_AMD_POSTCODE_DISTRICT_BOUNDARIES">
+<SimpleData name="POSTDIST">RG6</SimpleData>
+<SimpleData name="STRUCUTRED">RG 6</SimpleData>
+<SimpleData name="POSTAREA">RG</SimpleData>
+<SimpleData name="POSTCODE_C">145</SimpleData>
+<SimpleData name="AREA_KM">11.06362005518</SimpleData>
+<SimpleData name="AREA_MI">4.2716875846</SimpleData>
+<SimpleData name="X_COORD">474651.61783333</SimpleData>
+<SimpleData name="Y_COORD">171266.26216667</SimpleData>
+<SimpleData name="LONGITUDE">-0.925937</SimpleData>
+<SimpleData name="LATITUDE">51.43498</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-0.954683348322653,51.4426635449857,0.0 -0.950363696182646,51.4453044971904,0.0 -0.947245485451354,51.4447229069722,0.0 -0.94419690034478,51.4467736323229,0.0 -0.939415033221873,51.445232956799,0.0 -0.937438178074132,51.4467077422069,0.0 -0.93924142909876,51.4489989868512,0.0 -0.941770083526038,51.4485542985834,0.0 -0.944299545047495,51.4518141451702,0.0 -0.948219290067083,51.4528384610947,0.0 -0.941504459321868,51.451950760065,0.0 -0.941118905855264,51.4549326271714,0.0 -0.938017477539784,51.4552372748429,0.0 -0.940358256619957,51.4573266228264,0.0 -0.941740093855772,51.4573211157765,0.0 -0.943365188772478,51.4598714652897,0.0 -0.942376876607824,51.4602851479689,0.0 -0.933633612849483,51.461779556426,0.0 -0.930868199089971,51.461232816256,0.0 -0.925085867756046,51.4616655702213,0.0 -0.919525314229508,51.4600139309295,0.0 -0.916657635144495,51.4601492863221,0.0 -0.918928608704271,51.4566364493444,0.0 -0.920387513351978,51.4509220822918,0.0 -0.920112657668141,51.4448770147076,0.0 -0.921382386755671,51.4429014268758,0.0 -0.916070500868135,51.4411799891849,0.0 -0.900994818176167,51.4392502411731,0.0 -0.898234272233713,51.4391704028749,0.0 -0.900382027147876,51.4372033744478,0.0 -0.899774788553989,51.4349317395059,0.0 -0.897079310843624,51.427982535723,0.0 -0.898488696179867,51.4261974589235,0.0 -0.897224789689329,51.4255201833633,0.0 -0.901971601933516,51.4249083297963,0.0 -0.903253245754672,51.4224385395691,0.0 -0.907463092049322,51.4214077481081,0.0 -0.907652207577648,51.4207171483722,0.0 -0.915622460614565,51.4199909051694,0.0 -0.926092402255169,51.4205997577666,0.0 -0.932693059573356,51.4200036278378,0.0 -0.938709450186655,51.4185475792738,0.0 -0.949517039630595,51.4144636914338,0.0 -0.948611459544261,51.4169553296771,0.0 -0.946928595518554,51.417596628136,0.0 -0.947541330967892,51.4184653816794,0.0 -0.945688460886984,51.4221173759456,0.0 -0.943519540493396,51.4238692969136,0.0 -0.940309583032251,51.4246045980723,0.0 -0.939779037291177,51.4251573188776,0.0 -0.941818431345115,51.4265335841038,0.0 -0.942077283280862,51.4290266887896,0.0 -0.944837102469876,51.4291144817363,0.0 -0.945295091514087,51.4298379278907,0.0 -0.944084534345038,51.4299349088011,0.0 -0.943920188985901,51.4308236366103,0.0 -0.945311761853914,51.4309890689113,0.0 -0.944020075967607,51.4314809364002,0.0 -0.943328065390572,51.4359166936745,0.0 -0.944786305759371,51.4367445090565,0.0 -0.954683348322653,51.4426635449857,0.0</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_2106">
+<name>kml_2106</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>RG7</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>RG 7</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>297</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>189.14178484145</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>73.02805139786</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>462869.92885714</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>166204.99971429</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-1.096339</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.39088142857</td>
+</tr></table></center><center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>RG7</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>RG 7</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>297</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>189.14178484145</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>73.02805139786</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>462869.92885714</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>166204.99971429</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-1.096339</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.39088142857</td>
+</tr></table></center>]]></description>
+<styleUrl>#kml_style_ft_AMD_POSTCODE_DISTRICT_BOUNDARIES</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_AMD_POSTCODE_DISTRICT_BOUNDARIES">
+<SimpleData name="POSTDIST">RG7</SimpleData>
+<SimpleData name="STRUCUTRED">RG 7</SimpleData>
+<SimpleData name="POSTAREA">RG</SimpleData>
+<SimpleData name="POSTCODE_C">297</SimpleData>
+<SimpleData name="AREA_KM">189.14178484145</SimpleData>
+<SimpleData name="AREA_MI">73.02805139786</SimpleData>
+<SimpleData name="X_COORD">462869.92885714</SimpleData>
+<SimpleData name="Y_COORD">166204.99971429</SimpleData>
+<SimpleData name="LONGITUDE">-1.096339</SimpleData>
+<SimpleData name="LATITUDE">51.39088142857</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-0.940968988520691,51.3575414962577,0.0 -0.971320128471916,51.3575414962577,0.0 -0.970809565985225,51.3588843790806,0.0 -0.975166989643437,51.3599207487872,0.0 -0.983926557565929,51.3599970223644,0.0 -0.987884667652003,51.360921407132,0.0 -0.986731052283636,51.3598234532558,0.0 -0.986831224679714,51.3578910508697,0.0 -0.986937915957512,51.3575414962577,0.0 -1.11129639434688,51.3575414962577,0.0 -1.11593291462025,51.36300937229,0.0 -1.12609625535533,51.3610623692574,0.0 -1.13027596480115,51.3595378512395,0.0 -1.13121008416422,51.3579891794573,0.0 -1.13767082312163,51.3575414962577,0.0 -1.14442908623654,51.3575414962577,0.0 -1.14638484817967,51.3590718901762,0.0 -1.14414377498786,51.3598737554087,0.0 -1.14493100480594,51.3615609500603,0.0 -1.14737253154761,51.3607964868107,0.0 -1.14875425359577,51.3621912458786,0.0 -1.15002869323828,51.3616250857655,0.0 -1.15101137469856,51.3628550332812,0.0 -1.15810804588968,51.3612247668847,0.0 -1.1601011942665,51.3621922067898,0.0 -1.16277993847456,51.3594328606324,0.0 -1.16376260480376,51.3595857102088,0.0 -1.16376260480376,51.4603296357623,0.0 -1.15037691326461,51.4607713381396,0.0 -1.13055536132886,51.459295338418,0.0 -1.11133771643518,51.460140391386,0.0 -1.09867443323193,51.4592345619594,0.0 -1.09059234639086,51.4574277371492,0.0 -1.0833471951517,51.4548176808102,0.0 -1.07896451731209,51.4523285695876,0.0 -1.06969347883409,51.4418428950054,0.0 -1.0656636108155,51.4390773182077,0.0 -1.05477089995136,51.4342693252889,0.0 -1.03950136302253,51.4263223331751,0.0 -1.04111570986862,51.4247889373696,0.0 -1.04482905531495,51.4232816283182,0.0 -1.06119580088668,51.4226045962549,0.0 -1.06266161908356,51.4219599270359,0.0 -1.06290522366373,51.4212964862851,0.0 -1.06198404690115,51.4213340620062,0.0 -1.06298471402884,51.4202270373778,0.0 -1.0603986590956,51.4186956935614,0.0 -1.06190960450328,51.4179435199855,0.0 -1.06220205348472,51.415599029688,0.0 -1.0655695925927,51.4154730091542,0.0 -1.06662650692605,51.4144114324435,0.0 -1.06362302119545,51.4129127923786,0.0 -1.06141534223921,51.4097749540959,0.0 -1.06312275811558,51.4092490710648,0.0 -1.06418190498622,51.4052562194398,0.0 -1.06241163994467,51.4039471648557,0.0 -1.06047168047562,51.402501970867,0.0 -1.05747736498124,51.4047978145103,0.0 -1.05387801355784,51.4043552236214,0.0 -1.05133758384064,51.4048472590304,0.0 -1.04743534176359,51.4072163968944,0.0 -1.04550096013472,51.4055192184854,0.0 -1.04062180890156,51.4037169477748,0.0 -1.03583139682238,51.4052332461528,0.0 -1.02970991579839,51.4030516464518,0.0 -1.02737406169039,51.4047318132122,0.0 -1.02373663789855,51.4054119129592,0.0 -1.01988003003082,51.4076007334303,0.0 -1.01490989884781,51.4073882769826,0.0 -1.01235043949774,51.4094078595463,0.0 -1.01181125939005,51.4110757819124,0.0 -1.01662982783607,51.4176983576191,0.0 -1.01099802199273,51.4167788474183,0.0 -1.00741987971742,51.4179895003312,0.0 -1.00061813463788,51.4173112728703,0.0 -0.995333689858413,51.417616785921,0.0 -0.995696107413965,51.4194542550399,0.0 -0.985968343030179,51.4171224722795,0.0 -0.97213697233858,51.4125150951636,0.0 -0.966113666421016,51.4118057326201,0.0 -0.959046235166839,51.4121298303175,0.0 -0.955546511615571,51.4130068984539,0.0 -0.959093993485516,51.4100262063338,0.0 -0.962791514629429,51.4086561818484,0.0 -0.961973379103005,51.404782437181,0.0 -0.958583163140967,51.4027650977646,0.0 -0.958847707083246,51.3961763520906,0.0 -0.961978568784861,51.3962940997411,0.0 -0.96104982872515,51.3941457701931,0.0 -0.959803365793796,51.39333438748,0.0 -0.957677444338816,51.3939089814774,0.0 -0.955148943873997,51.3913327735252,0.0 -0.947744912784133,51.388919676519,0.0 -0.943191478021915,51.3863160182313,0.0 -0.936197294625736,51.3842654596936,0.0 -0.928245848414351,51.3856947037465,0.0 -0.923171021135442,51.3882288738465,0.0 -0.922299556283709,51.3843363620131,0.0 -0.919822187103927,51.3851857990048,0.0 -0.908162539290779,51.3835850792146,0.0 -0.907854504972834,51.3808306294724,0.0 -0.904751282565906,51.3771959215221,0.0 -0.9042444454665,51.3725422936502,0.0 -0.898818214060965,51.3633735169851,0.0 -0.901094582893412,51.3624866799649,0.0 -0.906743239567527,51.36353760922,0.0 -0.912405655040959,51.3640128940095,0.0 -0.913758368253445,51.363908579524,0.0 -0.913764759072777,51.3630274021073,0.0 -0.918348971533907,51.3629349583938,0.0 -0.917778937365426,51.3645752181901,0.0 -0.924066403948482,51.365972894528,0.0 -0.930185886895425,51.3647340747456,0.0 -0.937049482881557,51.364841479273,0.0 -0.939662282133002,51.3624193931766,0.0 -0.939464002272792,51.360430301037,0.0 -0.940968988520691,51.3575414962577,0.0</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_2107">
+<name>kml_2107</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>RG8</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>RG 8</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>208</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>112.84833157678</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>43.57098440971</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>461829.375</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>178883.3765</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-1.10905525</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.5050095</td>
+</tr></table></center><center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>RG8</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>RG 8</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>208</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>112.84833157678</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>43.57098440971</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>461829.375</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>178883.3765</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-1.10905525</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.5050095</td>
+</tr></table></center>]]></description>
+<styleUrl>#kml_style_ft_AMD_POSTCODE_DISTRICT_BOUNDARIES</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_AMD_POSTCODE_DISTRICT_BOUNDARIES">
+<SimpleData name="POSTDIST">RG8</SimpleData>
+<SimpleData name="STRUCUTRED">RG 8</SimpleData>
+<SimpleData name="POSTAREA">RG</SimpleData>
+<SimpleData name="POSTCODE_C">208</SimpleData>
+<SimpleData name="AREA_KM">112.84833157678</SimpleData>
+<SimpleData name="AREA_MI">43.57098440971</SimpleData>
+<SimpleData name="X_COORD">461829.375</SimpleData>
+<SimpleData name="Y_COORD">178883.3765</SimpleData>
+<SimpleData name="LONGITUDE">-1.10905525</SimpleData>
+<SimpleData name="LATITUDE">51.5050095</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-1.02601118751083,51.5432549370844,0.0 -1.02443124135109,51.5415894638979,0.0 -1.02495122567031,51.5314241194014,0.0 -1.02010119181341,51.5276791201953,0.0 -1.02748706235196,51.5267604713068,0.0 -1.0316306030878,51.5284942223748,0.0 -1.03401553957648,51.5288735367428,0.0 -1.03616416861015,51.5281629017494,0.0 -1.02830600897908,51.5207877728804,0.0 -1.03154632011252,51.5188723566846,0.0 -1.03675300209227,51.5173326777408,0.0 -1.03471013127617,51.5157962716234,0.0 -1.03552057798269,51.5149486948851,0.0 -1.03432449018516,51.5142644963151,0.0 -1.04535582661512,51.5049763708674,0.0 -1.04849950549913,51.495848333533,0.0 -1.05193699370368,51.491937820601,0.0 -1.04282306525161,51.4890044483938,0.0 -1.04004486104472,51.4868686575605,0.0 -1.03760952228913,51.4841961783335,0.0 -1.03907210926433,51.477644163647,0.0 -1.0350324482458,51.4752820774253,0.0 -1.03591743287472,51.4742822921324,0.0 -1.04632702556357,51.4763815048732,0.0 -1.04851908417735,51.4796813471706,0.0 -1.05046608231814,51.4802276730171,0.0 -1.05218803498641,51.4777418772911,0.0 -1.05598008646164,51.4782040232397,0.0 -1.05819797576748,51.4746881117343,0.0 -1.05894255282733,51.4699913887949,0.0 -1.05750081185516,51.4672912258573,0.0 -1.05988961807228,51.4673373619198,0.0 -1.06166877877971,51.4655262578642,0.0 -1.05685915275246,51.4635005350817,0.0 -1.05484905370298,51.4611555168788,0.0 -1.06142115711883,51.4551387661012,0.0 -1.06200509080795,51.4528170067708,0.0 -1.05939653769751,51.450006237006,0.0 -1.06154662856461,51.4497177394493,0.0 -1.0640039447143,51.4470758369151,0.0 -1.06480393306876,51.4438361205635,0.0 -1.06969347883409,51.4418428950054,0.0 -1.07896451731209,51.4523285695876,0.0 -1.0833471951517,51.4548176808102,0.0 -1.09059234639086,51.4574277371492,0.0 -1.09867443323193,51.4592345619594,0.0 -1.11133771643518,51.460140391386,0.0 -1.13055536132886,51.459295338418,0.0 -1.15037691326461,51.4607713381396,0.0 -1.16376260480376,51.4603296357623,0.0 -1.16376260480376,51.5341235269498,0.0 -1.16288599237142,51.533900746542,0.0 -1.15229006526185,51.5385183340942,0.0 -1.1444885024335,51.539342837127,0.0 -1.14291252517514,51.5432549370844,0.0 -1.02601118751083,51.5432549370844,0.0</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_2108">
+<name>kml_2108</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>RG9</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>RG 9</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>207</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>153.39530935738</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>59.22626005317</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>474307.3325</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>183799.75016667</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-0.9282565</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.54770733333</td>
+</tr></table></center><center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>RG9</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>RG 9</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>207</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>153.39530935738</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>59.22626005317</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>474307.3325</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>183799.75016667</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-0.9282565</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.54770733333</td>
+</tr></table></center>]]></description>
+<styleUrl>#kml_style_ft_AMD_POSTCODE_DISTRICT_BOUNDARIES</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_AMD_POSTCODE_DISTRICT_BOUNDARIES">
+<SimpleData name="POSTDIST">RG9</SimpleData>
+<SimpleData name="STRUCUTRED">RG 9</SimpleData>
+<SimpleData name="POSTAREA">RG</SimpleData>
+<SimpleData name="POSTCODE_C">207</SimpleData>
+<SimpleData name="AREA_KM">153.39530935738</SimpleData>
+<SimpleData name="AREA_MI">59.22626005317</SimpleData>
+<SimpleData name="X_COORD">474307.3325</SimpleData>
+<SimpleData name="Y_COORD">183799.75016667</SimpleData>
+<SimpleData name="LONGITUDE">-0.9282565</SimpleData>
+<SimpleData name="LATITUDE">51.54770733333</SimpleData>
+</SchemaData>
+</ExtendedData>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-1.02601118751083,51.5432549370844,0.0 -1.02297190809705,51.5432549370844,0.0 -1.02443124135109,51.5415894638979,0.0 -1.02601118751083,51.5432549370844,0.0</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-0.842402256677551,51.5432549370844,0.0 -0.840030411159565,51.541584217574,0.0 -0.839448637388857,51.5355449739269,0.0 -0.842197465481604,51.5334680129931,0.0 -0.843205501134727,51.5352224125457,0.0 -0.842115845688163,51.5372527642611,0.0 -0.847971188703662,51.5377689282315,0.0 -0.854967773136274,51.5370551604021,0.0 -0.867572646241118,51.5375101575118,0.0 -0.868159556025666,51.5336134222978,0.0 -0.873945340768473,51.5287595215605,0.0 -0.878347414302687,51.5226783035546,0.0 -0.878575920321864,51.5180676582517,0.0 -0.88021244118902,51.5171571210514,0.0 -0.880768735064892,51.5138623846055,0.0 -0.880040310952092,51.5112478307893,0.0 -0.874611198959957,51.5093435553189,0.0 -0.870469470404479,51.5066781738402,0.0 -0.87100631385175,51.5053615578884,0.0 -0.86995888476917,51.504020608713,0.0 -0.871072057352402,51.5027005588616,0.0 -0.88360779283846,51.5008872768145,0.0 -0.890771739258428,51.4983656051934,0.0 -0.89329062365788,51.496671898099,0.0 -0.89704945359558,51.4973097589106,0.0 -0.899708957908001,51.4987375031385,0.0 -0.907151983469725,51.4953362334479,0.0 -0.915517470679587,51.4942898477455,0.0 -0.919352508617121,51.4917086407376,0.0 -0.924047315498096,51.4935861442184,0.0 -0.931900250322782,51.4940984668739,0.0 -0.938643471047844,51.4971269195067,0.0 -0.945606832149334,51.4981428393231,0.0 -0.949607509557857,51.4995814920145,0.0 -0.964062288238274,51.5095290246756,0.0 -0.959638561524184,51.5126909390243,0.0 -0.967613798458655,51.5187949265604,0.0 -0.967494237700516,51.5208978833533,0.0 -0.976009525720229,51.52424554126,0.0 -0.978306049774742,51.5214601329754,0.0 -0.979522488169062,51.5218483532736,0.0 -0.981422355323684,51.5206779218727,0.0 -0.990619763856108,51.5251633488586,0.0 -0.991893937134515,51.5242481527459,0.0 -0.994561803677363,51.5261593052529,0.0 -0.992220097405009,51.5277577127464,0.0 -0.994989926811492,51.5289773841985,0.0 -0.998790615932722,51.5292077252446,0.0 -1.00385556528797,51.5322809741734,0.0 -1.01949539174671,51.5344089053299,0.0 -1.02134748148455,51.5361147683586,0.0 -1.02129157904319,51.5387219580745,0.0 -1.01307532670482,51.5392734926499,0.0 -1.00780508577305,51.540937534552,0.0 -1.00889084195839,51.5432549370844,0.0 -0.842402256677551,51.5432549370844,0.0</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+<Placemark id="kml_2317">
+<name>kml_2317</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>SL6</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>SL 6</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>SL</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>268</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>98.82417182713</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>38.15622605863</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>487722.6452</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>181454.4504</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-0.7353906</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.5246966</td>
+</tr></table></center><center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>SL6</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>SL 6</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>SL</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>268</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>98.82417182713</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>38.15622605863</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>487722.6452</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>181454.4504</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-0.7353906</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.5246966</td>
+</tr></table></center>]]></description>
+<styleUrl>#kml_style_ft_AMD_POSTCODE_DISTRICT_BOUNDARIES</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_AMD_POSTCODE_DISTRICT_BOUNDARIES">
+<SimpleData name="POSTDIST">SL6</SimpleData>
+<SimpleData name="STRUCUTRED">SL 6</SimpleData>
+<SimpleData name="POSTAREA">SL</SimpleData>
+<SimpleData name="POSTCODE_C">268</SimpleData>
+<SimpleData name="AREA_KM">98.82417182713</SimpleData>
+<SimpleData name="AREA_MI">38.15622605863</SimpleData>
+<SimpleData name="X_COORD">487722.6452</SimpleData>
+<SimpleData name="Y_COORD">181454.4504</SimpleData>
+<SimpleData name="LONGITUDE">-0.7353906</SimpleData>
+<SimpleData name="LATITUDE">51.5246966</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-0.842402256677551,51.5432549370844,0.0 -0.754521882147515,51.5432549370844,0.0 -0.754521882147515,51.4651449380242,0.0 -0.768296921331155,51.4697451968828,0.0 -0.778305237535984,51.4723586327726,0.0 -0.788910031752556,51.4785920866254,0.0 -0.794620179509077,51.4870404065975,0.0 -0.803541892401496,51.4950536034751,0.0 -0.807870619648161,51.5008524620785,0.0 -0.80826160317527,51.5040935702354,0.0 -0.810571495860777,51.5072371155352,0.0 -0.81014550693898,51.5114230762053,0.0 -0.808113775322044,51.5158354407011,0.0 -0.81077466183485,51.518254305238,0.0 -0.817106697749756,51.5208450255582,0.0 -0.82448674322935,51.5264311528799,0.0 -0.840030411159565,51.541584217574,0.0 -0.842402256677551,51.5432549370844,0.0</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+</Folder>
+</Document></kml>

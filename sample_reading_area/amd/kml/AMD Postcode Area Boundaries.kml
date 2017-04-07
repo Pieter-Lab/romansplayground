@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>AMD Postcode Area Boundaries</name>
+<visibility>1</visibility>
+<Schema name="AMD_POSTCODE_AREA_BOUNDARIES" id="kml_schema_ft_AMD_POSTCODE_AREA_BOUNDARIES">
+<SimpleField type="xsd:string" name="POSTAREA">
+<displayName>POSTAREA</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="POSTCODE_C">
+<displayName>POSTCODE_C</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="AREA_KM">
+<displayName>AREA_KM</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="AREA_MI">
+<displayName>AREA_MI</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="X_COORD">
+<displayName>X_COORD</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Y_COORD">
+<displayName>Y_COORD</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="LONGITUDE">
+<displayName>LONGITUDE</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="LATITUDE">
+<displayName>LATITUDE</displayName>
+</SimpleField>
+</Schema>
+<Folder id="kml_ft_AMD_POSTCODE_AREA_BOUNDARIES">
+<name>kml_ft_AMD_POSTCODE_AREA_BOUNDARIES</name>
+<Placemark id="kml_41">
+<name>kml_41</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>GU</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>261</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>1641.901694994</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>633.94178855167</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>489256.52677679</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>148372.77946429</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-0.72149533929</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.2269655625</td>
+</tr></table></center><center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>GU</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>261</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>1641.901694994</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>633.94178855167</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>489256.52677679</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>148372.77946429</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-0.72149533929</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.2269655625</td>
+</tr></table></center>]]></description>
+<styleUrl>#kml_style_ft_AMD_POSTCODE_AREA_BOUNDARIES</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_AMD_POSTCODE_AREA_BOUNDARIES">
+<SimpleData name="POSTAREA">GU</SimpleData>
+<SimpleData name="POSTCODE_C">261</SimpleData>
+<SimpleData name="AREA_KM">1641.901694994</SimpleData>
+<SimpleData name="AREA_MI">633.94178855167</SimpleData>
+<SimpleData name="X_COORD">489256.52677679</SimpleData>
+<SimpleData name="Y_COORD">148372.77946429</SimpleData>
+<SimpleData name="LONGITUDE">-0.72149533929</SimpleData>
+<SimpleData name="LATITUDE">51.2269655625</SimpleData>
+</SchemaData>
+</ExtendedData>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-0.811881675652029,51.3575414962577,0.0 -0.836536884981072,51.3575414962577,0.0 -0.824367184211037,51.3618139864958,0.0 -0.820775305983213,51.3579382899668,0.0 -0.811881675652029,51.3575414962577,0.0</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-0.754521882147515,51.3619688829705,0.0 -0.754521882147515,51.3575414962577,0.0 -0.796754405176863,51.3575414962577,0.0 -0.794608162735398,51.3579058632052,0.0 -0.790569220664559,51.3596625983044,0.0 -0.771374290853018,51.3615041732794,0.0 -0.768355425526281,51.3615983362682,0.0 -0.754521882147515,51.3619688829705,0.0</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+<Placemark id="kml_80">
+<name>kml_80</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>OX</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>249</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>2378.8922585098</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>918.49543595055</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>449097.38220952</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>211840.72922857</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-1.28795171429</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.80250664762</td>
+</tr></table></center><center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>OX</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>249</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>2378.8922585098</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>918.49543595055</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>449097.38220952</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>211840.72922857</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-1.28795171429</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.80250664762</td>
+</tr></table></center>]]></description>
+<styleUrl>#kml_style_ft_AMD_POSTCODE_AREA_BOUNDARIES</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_AMD_POSTCODE_AREA_BOUNDARIES">
+<SimpleData name="POSTAREA">OX</SimpleData>
+<SimpleData name="POSTCODE_C">249</SimpleData>
+<SimpleData name="AREA_KM">2378.8922585098</SimpleData>
+<SimpleData name="AREA_MI">918.49543595055</SimpleData>
+<SimpleData name="X_COORD">449097.38220952</SimpleData>
+<SimpleData name="Y_COORD">211840.72922857</SimpleData>
+<SimpleData name="LONGITUDE">-1.28795171429</SimpleData>
+<SimpleData name="LATITUDE">51.80250664762</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-1.16376260480376,51.5341235269498,0.0 -1.16376260480376,51.5432549370844,0.0 -1.14291252517514,51.5432549370844,0.0 -1.1444885024335,51.539342837127,0.0 -1.15229006526185,51.5385183340942,0.0 -1.16288599237142,51.533900746542,0.0 -1.16376260480376,51.5341235269498,0.0</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_87">
+<name>kml_87</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>137</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>1948.4627946495</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>752.30569085381</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>467130.90027907</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>168019.97382171</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-1.03468718605</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.40657647287</td>
+</tr></table></center><center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>137</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>1948.4627946495</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>752.30569085381</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>467130.90027907</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>168019.97382171</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-1.03468718605</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.40657647287</td>
+</tr></table></center>]]></description>
+<styleUrl>#kml_style_ft_AMD_POSTCODE_AREA_BOUNDARIES</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_AMD_POSTCODE_AREA_BOUNDARIES">
+<SimpleData name="POSTAREA">RG</SimpleData>
+<SimpleData name="POSTCODE_C">137</SimpleData>
+<SimpleData name="AREA_KM">1948.4627946495</SimpleData>
+<SimpleData name="AREA_MI">752.30569085381</SimpleData>
+<SimpleData name="X_COORD">467130.90027907</SimpleData>
+<SimpleData name="Y_COORD">168019.97382171</SimpleData>
+<SimpleData name="LONGITUDE">-1.03468718605</SimpleData>
+<SimpleData name="LATITUDE">51.40657647287</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-0.811881675652029,51.3575414962577,0.0 -0.820775305983213,51.3579382899668,0.0 -0.824367184211037,51.3618139864958,0.0 -0.836536884981072,51.3575414962577,0.0 -1.16376260480376,51.3575414962577,0.0 -1.16376260480376,51.5341235269498,0.0 -1.16288599237142,51.533900746542,0.0 -1.15229006526185,51.5385183340942,0.0 -1.1444885024335,51.539342837127,0.0 -1.14291252517514,51.5432549370844,0.0 -0.842402256677551,51.5432549370844,0.0 -0.840030411159565,51.541584217574,0.0 -0.82448674322935,51.5264311528799,0.0 -0.817106697749756,51.5208450255582,0.0 -0.81077466183485,51.518254305238,0.0 -0.808113775322044,51.5158354407011,0.0 -0.81014550693898,51.5114230762053,0.0 -0.810571495860777,51.5072371155352,0.0 -0.80826160317527,51.5040935702354,0.0 -0.807870619648161,51.5008524620785,0.0 -0.803541892401496,51.4950536034751,0.0 -0.794620179509077,51.4870404065975,0.0 -0.788910031752556,51.4785920866254,0.0 -0.778305237535984,51.4723586327726,0.0 -0.768296921331155,51.4697451968828,0.0 -0.754521882147515,51.4651449380242,0.0 -0.754521882147515,51.3619688829705,0.0 -0.768355425526281,51.3615983362682,0.0 -0.771374290853018,51.3615041732794,0.0 -0.790569220664559,51.3596625983044,0.0 -0.794608162735398,51.3579058632052,0.0 -0.796754405176863,51.3575414962577,0.0 -0.811881675652029,51.3575414962577,0.0</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_95">
+<name>kml_95</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>SL</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>225</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>398.76542638358</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>153.9641918788</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>494199.91216327</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>180623.84689796</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-0.64226710204</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.51616504082</td>
+</tr></table></center><center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>SL</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>225</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>398.76542638358</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>153.9641918788</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>494199.91216327</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>180623.84689796</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-0.64226710204</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.51616504082</td>
+</tr></table></center>]]></description>
+<styleUrl>#kml_style_ft_AMD_POSTCODE_AREA_BOUNDARIES</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_AMD_POSTCODE_AREA_BOUNDARIES">
+<SimpleData name="POSTAREA">SL</SimpleData>
+<SimpleData name="POSTCODE_C">225</SimpleData>
+<SimpleData name="AREA_KM">398.76542638358</SimpleData>
+<SimpleData name="AREA_MI">153.9641918788</SimpleData>
+<SimpleData name="X_COORD">494199.91216327</SimpleData>
+<SimpleData name="Y_COORD">180623.84689796</SimpleData>
+<SimpleData name="LONGITUDE">-0.64226710204</SimpleData>
+<SimpleData name="LATITUDE">51.51616504082</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-0.842402256677551,51.5432549370844,0.0 -0.754521882147515,51.5432549370844,0.0 -0.754521882147515,51.4651449380242,0.0 -0.768296921331155,51.4697451968828,0.0 -0.778305237535984,51.4723586327726,0.0 -0.788910031752556,51.4785920866254,0.0 -0.794620179509077,51.4870404065975,0.0 -0.803541892401496,51.4950536034751,0.0 -0.807870619648161,51.5008524620785,0.0 -0.80826160317527,51.5040935702354,0.0 -0.810571495860777,51.5072371155352,0.0 -0.81014550693898,51.5114230762053,0.0 -0.808113775322044,51.5158354407011,0.0 -0.81077466183485,51.518254305238,0.0 -0.817106697749756,51.5208450255582,0.0 -0.82448674322935,51.5264311528799,0.0 -0.840030411159565,51.541584217574,0.0 -0.842402256677551,51.5432549370844,0.0</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+</Folder>
+</Document></kml>

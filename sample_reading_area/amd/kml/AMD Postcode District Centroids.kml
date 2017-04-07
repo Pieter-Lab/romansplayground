@@ -1,0 +1,1108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>AMD Postcode District Centroids</name>
+<visibility>1</visibility>
+<Schema name="AMD_POSTCODE_DISTRICT_CENTROIDS" id="kml_schema_ft_AMD_POSTCODE_DISTRICT_CENTROIDS">
+<SimpleField type="xsd:string" name="POSTDIST">
+<displayName>POSTDIST</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="STRUCUTRED">
+<displayName>STRUCUTRED</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="POSTAREA">
+<displayName>POSTAREA</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="POSTCODE_C">
+<displayName>POSTCODE_C</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="AREA_KM">
+<displayName>AREA_KM</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="AREA_MI">
+<displayName>AREA_MI</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="X_COORD">
+<displayName>X_COORD</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Y_COORD">
+<displayName>Y_COORD</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="LONGITUDE">
+<displayName>LONGITUDE</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="LATITUDE">
+<displayName>LATITUDE</displayName>
+</SimpleField>
+</Schema>
+<Folder id="kml_ft_AMD_POSTCODE_DISTRICT_CENTROIDS">
+<name>kml_ft_AMD_POSTCODE_DISTRICT_CENTROIDS</name>
+<Placemark id="kml_2080">
+<name>kml_2080</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>RG1</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>RG 1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>176</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>7.08833742815</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>2.73682238148</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>471794.312375</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>173240.936625</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-0.966638125</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.45310375</td>
+</tr></table></center><center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>RG1</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>RG 1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>176</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>7.08833742815</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>2.73682238148</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>471794.312375</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>173240.936625</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-0.966638125</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.45310375</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_AMD_POSTCODE_DISTRICT_CENTROIDS">
+<SimpleData name="POSTDIST">RG1</SimpleData>
+<SimpleData name="STRUCUTRED">RG 1</SimpleData>
+<SimpleData name="POSTAREA">RG</SimpleData>
+<SimpleData name="POSTCODE_C">176</SimpleData>
+<SimpleData name="AREA_KM">7.08833742815</SimpleData>
+<SimpleData name="AREA_MI">2.73682238148</SimpleData>
+<SimpleData name="X_COORD">471794.312375</SimpleData>
+<SimpleData name="Y_COORD">173240.936625</SimpleData>
+<SimpleData name="LONGITUDE">-0.966638125</SimpleData>
+<SimpleData name="LATITUDE">51.45310375</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-0.968158736487782,51.4536174799499,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_2081">
+<name>kml_2081</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>RG10</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>RG10</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>291</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>62.76841935832</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>24.23502220254</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>479504.006</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>177043.83233333</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-0.854839</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.48626266667</td>
+</tr></table></center><center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>RG10</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>RG10</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>291</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>62.76841935832</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>24.23502220254</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>479504.006</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>177043.83233333</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-0.854839</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.48626266667</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_AMD_POSTCODE_DISTRICT_CENTROIDS">
+<SimpleData name="POSTDIST">RG10</SimpleData>
+<SimpleData name="STRUCUTRED">RG10</SimpleData>
+<SimpleData name="POSTAREA">RG</SimpleData>
+<SimpleData name="POSTCODE_C">291</SimpleData>
+<SimpleData name="AREA_KM">62.76841935832</SimpleData>
+<SimpleData name="AREA_MI">24.23502220254</SimpleData>
+<SimpleData name="X_COORD">479504.006</SimpleData>
+<SimpleData name="Y_COORD">177043.83233333</SimpleData>
+<SimpleData name="LONGITUDE">-0.854839</SimpleData>
+<SimpleData name="LATITUDE">51.48626266667</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-0.856371299011473,51.4867759469591,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_2087">
+<name>kml_2087</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>RG2</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>RG 2</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>472</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>26.78521027521</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>10.34182750427</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>472470.9982</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>169658.2998</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-0.9576376</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.4208044</td>
+</tr></table></center><center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>RG2</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>RG 2</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>472</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>26.78521027521</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>10.34182750427</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>472470.9982</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>169658.2998</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-0.9576376</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.4208044</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_AMD_POSTCODE_DISTRICT_CENTROIDS">
+<SimpleData name="POSTDIST">RG2</SimpleData>
+<SimpleData name="STRUCUTRED">RG 2</SimpleData>
+<SimpleData name="POSTAREA">RG</SimpleData>
+<SimpleData name="POSTCODE_C">472</SimpleData>
+<SimpleData name="AREA_KM">26.78521027521</SimpleData>
+<SimpleData name="AREA_MI">10.34182750427</SimpleData>
+<SimpleData name="X_COORD">472470.9982</SimpleData>
+<SimpleData name="Y_COORD">169658.2998</SimpleData>
+<SimpleData name="LONGITUDE">-0.9576376</SimpleData>
+<SimpleData name="LATITUDE">51.4208044</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-0.959153892894588,51.4213232407794,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_2098">
+<name>kml_2098</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>RG30</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>RG30</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>113</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>25.02564416114</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>9.66245522953</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>468500.0996</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>172945.3008</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-1.0141014</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.4508538</td>
+</tr></table></center><center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>RG30</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>RG30</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>113</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>25.02564416114</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>9.66245522953</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>468500.0996</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>172945.3008</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-1.0141014</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.4508538</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_AMD_POSTCODE_DISTRICT_CENTROIDS">
+<SimpleData name="POSTDIST">RG30</SimpleData>
+<SimpleData name="STRUCUTRED">RG30</SimpleData>
+<SimpleData name="POSTAREA">RG</SimpleData>
+<SimpleData name="POSTCODE_C">113</SimpleData>
+<SimpleData name="AREA_KM">25.02564416114</SimpleData>
+<SimpleData name="AREA_MI">9.66245522953</SimpleData>
+<SimpleData name="X_COORD">468500.0996</SimpleData>
+<SimpleData name="Y_COORD">172945.3008</SimpleData>
+<SimpleData name="LONGITUDE">-1.0141014</SimpleData>
+<SimpleData name="LATITUDE">51.4508538</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-1.01561757655887,51.4513671101449,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_2099">
+<name>kml_2099</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>RG31</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>RG31</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>170</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>8.54614276802</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>3.29968416994</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>466242.84075</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>173266.87575</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-1.04652475</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.4540145</td>
+</tr></table></center><center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>RG31</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>RG31</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>170</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>8.54614276802</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>3.29968416994</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>466242.84075</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>173266.87575</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-1.04652475</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.4540145</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_AMD_POSTCODE_DISTRICT_CENTROIDS">
+<SimpleData name="POSTDIST">RG31</SimpleData>
+<SimpleData name="STRUCUTRED">RG31</SimpleData>
+<SimpleData name="POSTAREA">RG</SimpleData>
+<SimpleData name="POSTCODE_C">170</SimpleData>
+<SimpleData name="AREA_KM">8.54614276802</SimpleData>
+<SimpleData name="AREA_MI">3.29968416994</SimpleData>
+<SimpleData name="X_COORD">466242.84075</SimpleData>
+<SimpleData name="Y_COORD">173266.87575</SimpleData>
+<SimpleData name="LONGITUDE">-1.04652475</SimpleData>
+<SimpleData name="LATITUDE">51.4540145</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-1.04803677440334,51.4545262730137,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_2100">
+<name>kml_2100</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>RG4</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>RG 4</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>248</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>51.24166044926</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>19.78451570676</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>471717.9002</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>176723.8994</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-0.9670352</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.4844264</td>
+</tr></table></center><center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>RG4</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>RG 4</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>248</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>51.24166044926</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>19.78451570676</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>471717.9002</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>176723.8994</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-0.9670352</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.4844264</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_AMD_POSTCODE_DISTRICT_CENTROIDS">
+<SimpleData name="POSTDIST">RG4</SimpleData>
+<SimpleData name="STRUCUTRED">RG 4</SimpleData>
+<SimpleData name="POSTAREA">RG</SimpleData>
+<SimpleData name="POSTCODE_C">248</SimpleData>
+<SimpleData name="AREA_KM">51.24166044926</SimpleData>
+<SimpleData name="AREA_MI">19.78451570676</SimpleData>
+<SimpleData name="X_COORD">471717.9002</SimpleData>
+<SimpleData name="Y_COORD">176723.8994</SimpleData>
+<SimpleData name="LONGITUDE">-0.9670352</SimpleData>
+<SimpleData name="LATITUDE">51.4844264</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-0.968552621056756,51.4849391686534,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_2101">
+<name>kml_2101</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>RG40</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>RG40</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>173</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>43.90278809069</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>16.95096124785</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>481428.7998</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>167608.2006</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-0.829283</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.4011552</td>
+</tr></table></center><center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>RG40</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>RG40</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>173</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>43.90278809069</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>16.95096124785</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>481428.7998</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>167608.2006</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-0.829283</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.4011552</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_AMD_POSTCODE_DISTRICT_CENTROIDS">
+<SimpleData name="POSTDIST">RG40</SimpleData>
+<SimpleData name="STRUCUTRED">RG40</SimpleData>
+<SimpleData name="POSTAREA">RG</SimpleData>
+<SimpleData name="POSTCODE_C">173</SimpleData>
+<SimpleData name="AREA_KM">43.90278809069</SimpleData>
+<SimpleData name="AREA_MI">16.95096124785</SimpleData>
+<SimpleData name="X_COORD">481428.7998</SimpleData>
+<SimpleData name="Y_COORD">167608.2006</SimpleData>
+<SimpleData name="LONGITUDE">-0.829283</SimpleData>
+<SimpleData name="LATITUDE">51.4011552</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-0.830823893209123,51.4016792374482,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_2102">
+<name>kml_2102</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>RG41</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>RG41</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>139</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>17.70723753003</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>6.83680263217</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>479207.9</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>168911.2006</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-0.8609226</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.4131868</td>
+</tr></table></center><center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>RG41</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>RG41</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>139</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>17.70723753003</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>6.83680263217</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>479207.9</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>168911.2006</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-0.8609226</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.4131868</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_AMD_POSTCODE_DISTRICT_CENTROIDS">
+<SimpleData name="POSTDIST">RG41</SimpleData>
+<SimpleData name="STRUCUTRED">RG41</SimpleData>
+<SimpleData name="POSTAREA">RG</SimpleData>
+<SimpleData name="POSTCODE_C">139</SimpleData>
+<SimpleData name="AREA_KM">17.70723753003</SimpleData>
+<SimpleData name="AREA_MI">6.83680263217</SimpleData>
+<SimpleData name="X_COORD">479207.9</SimpleData>
+<SimpleData name="Y_COORD">168911.2006</SimpleData>
+<SimpleData name="LONGITUDE">-0.8609226</SimpleData>
+<SimpleData name="LATITUDE">51.4131868</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-0.862452942116639,51.4137070030922,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_2104">
+<name>kml_2104</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>RG45</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>RG45</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>158</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>11.09016790178</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>4.28193776547</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>483577.7475</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>164138.2525</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-0.7992185</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.369648</td>
+</tr></table></center><center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>RG45</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>RG45</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>158</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>11.09016790178</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>4.28193776547</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>483577.7475</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>164138.2525</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-0.7992185</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.369648</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_AMD_POSTCODE_DISTRICT_CENTROIDS">
+<SimpleData name="POSTDIST">RG45</SimpleData>
+<SimpleData name="STRUCUTRED">RG45</SimpleData>
+<SimpleData name="POSTAREA">RG</SimpleData>
+<SimpleData name="POSTCODE_C">158</SimpleData>
+<SimpleData name="AREA_KM">11.09016790178</SimpleData>
+<SimpleData name="AREA_MI">4.28193776547</SimpleData>
+<SimpleData name="X_COORD">483577.7475</SimpleData>
+<SimpleData name="Y_COORD">164138.2525</SimpleData>
+<SimpleData name="LONGITUDE">-0.7992185</SimpleData>
+<SimpleData name="LATITUDE">51.369648</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-0.800754455086243,51.3701734460676,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_2105">
+<name>kml_2105</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>RG5</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>RG 5</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>210</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>8.38828754117</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>3.23873592612</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>476578.9975</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>173149.248</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-0.8978035</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.4516525</td>
+</tr></table></center><center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>RG5</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>RG 5</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>210</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>8.38828754117</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>3.23873592612</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>476578.9975</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>173149.248</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-0.8978035</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.4516525</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_AMD_POSTCODE_DISTRICT_CENTROIDS">
+<SimpleData name="POSTDIST">RG5</SimpleData>
+<SimpleData name="STRUCUTRED">RG 5</SimpleData>
+<SimpleData name="POSTAREA">RG</SimpleData>
+<SimpleData name="POSTCODE_C">210</SimpleData>
+<SimpleData name="AREA_KM">8.38828754117</SimpleData>
+<SimpleData name="AREA_MI">3.23873592612</SimpleData>
+<SimpleData name="X_COORD">476578.9975</SimpleData>
+<SimpleData name="Y_COORD">173149.248</SimpleData>
+<SimpleData name="LONGITUDE">-0.8978035</SimpleData>
+<SimpleData name="LATITUDE">51.4516525</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-0.899331925231701,51.4521672743005,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_2106">
+<name>kml_2106</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>RG6</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>RG 6</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>145</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>11.06362005518</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>4.2716875846</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>474651.61783333</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>171266.26216667</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-0.925937</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.43498</td>
+</tr></table></center><center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>RG6</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>RG 6</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>145</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>11.06362005518</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>4.2716875846</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>474651.61783333</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>171266.26216667</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-0.925937</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.43498</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_AMD_POSTCODE_DISTRICT_CENTROIDS">
+<SimpleData name="POSTDIST">RG6</SimpleData>
+<SimpleData name="STRUCUTRED">RG 6</SimpleData>
+<SimpleData name="POSTAREA">RG</SimpleData>
+<SimpleData name="POSTCODE_C">145</SimpleData>
+<SimpleData name="AREA_KM">11.06362005518</SimpleData>
+<SimpleData name="AREA_MI">4.2716875846</SimpleData>
+<SimpleData name="X_COORD">474651.61783333</SimpleData>
+<SimpleData name="Y_COORD">171266.26216667</SimpleData>
+<SimpleData name="LONGITUDE">-0.925937</SimpleData>
+<SimpleData name="LATITUDE">51.43498</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-0.927460642208386,51.4354962793783,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_2107">
+<name>kml_2107</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>RG7</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>RG 7</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>297</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>189.14178484145</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>73.02805139786</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>462869.92885714</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>166204.99971429</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-1.096339</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.39088142857</td>
+</tr></table></center><center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>RG7</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>RG 7</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>297</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>189.14178484145</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>73.02805139786</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>462869.92885714</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>166204.99971429</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-1.096339</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.39088142857</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_AMD_POSTCODE_DISTRICT_CENTROIDS">
+<SimpleData name="POSTDIST">RG7</SimpleData>
+<SimpleData name="STRUCUTRED">RG 7</SimpleData>
+<SimpleData name="POSTAREA">RG</SimpleData>
+<SimpleData name="POSTCODE_C">297</SimpleData>
+<SimpleData name="AREA_KM">189.14178484145</SimpleData>
+<SimpleData name="AREA_MI">73.02805139786</SimpleData>
+<SimpleData name="X_COORD">462869.92885714</SimpleData>
+<SimpleData name="Y_COORD">166204.99971429</SimpleData>
+<SimpleData name="LONGITUDE">-1.096339</SimpleData>
+<SimpleData name="LATITUDE">51.39088142857</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-1.09782357740709,51.3914206267715,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_2108">
+<name>kml_2108</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>RG8</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>RG 8</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>208</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>112.84833157678</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>43.57098440971</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>461829.375</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>178883.3765</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-1.10905525</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.5050095</td>
+</tr></table></center><center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POSTDIST</th>
+<td>RG8</td>
+</tr><tr bgcolor="">
+<th>STRUCUTRED</th>
+<td>RG 8</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>POSTAREA</th>
+<td>RG</td>
+</tr><tr bgcolor="">
+<th>POSTCODE_C</th>
+<td>208</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>AREA_KM</th>
+<td>112.84833157678</td>
+</tr><tr bgcolor="">
+<th>AREA_MI</th>
+<td>43.57098440971</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>461829.375</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>178883.3765</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>LONGITUDE</th>
+<td>-1.10905525</td>
+</tr><tr bgcolor="">
+<th>LATITUDE</th>
+<td>51.5050095</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_AMD_POSTCODE_DISTRICT_CENTROIDS">
+<SimpleData name="POSTDIST">RG8</SimpleData>
+<SimpleData name="STRUCUTRED">RG 8</SimpleData>
+<SimpleData name="POSTAREA">RG</SimpleData>
+<SimpleData name="POSTCODE_C">208</SimpleData>
+<SimpleData name="AREA_KM">112.84833157678</SimpleData>
+<SimpleData name="AREA_MI">43.57098440971</SimpleData>
+<SimpleData name="X_COORD">461829.375</SimpleData>
+<SimpleData name="Y_COORD">178883.3765</SimpleData>
+<SimpleData name="LONGITUDE">-1.10905525</SimpleData>
+<SimpleData name="LATITUDE">51.5050095</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-1.11056544672916,51.5055191968428,0.0</coordinates>
+</Point>
+</Placemark>
+</Folder>
+</Document></kml>
