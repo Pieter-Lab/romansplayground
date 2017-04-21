@@ -8,7 +8,6 @@ var LABMAP = {
             startLng: -0.811881675651667
         }
     },
-    geometricspoly: [],
     initMapObj: function () {
         // Create a map object and specify the DOM element for display.
         this.map.obj = new google.maps.Map(document.getElementById(this.map.cnt), {
@@ -20,8 +19,10 @@ var LABMAP = {
     init: function(){
         //Inistantiate google map object
         this.initMapObj();
-
+        //Get JSON Call
         $.getJSON( "search.php?postcode=SL", function( data ) {
+            console.log(data);
+            //Create polygon map feature
             var polydata = {
                 "type": "FeatureCollection",
                 "features": [
@@ -30,12 +31,14 @@ var LABMAP = {
                         "properties": {
                             "fillColor": "blue"
                         },
-                        "geometry": data
+                        "geometry": data.polygon
                     }
                 ]
             };
-
+            //Add the data to the map
             LABMAP.map.obj.data.addGeoJson(polydata);
+            //recenter the map
+            LABMAP.map.obj.setCenter({lat: data.center.lat, lng: data.center.lng});
         });
     }
 };

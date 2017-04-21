@@ -19,13 +19,19 @@ if ($result->num_rows > 0) {
     while($row = $result->fetch_assoc()) {
         //Load cords into polygon
         $polygon = geoPHP::load($row['CORDS'],'wkt');
+        //get centers
+        $centroid = $polygon->getCentroid();
+        $centX = $centroid->getX();
+        $centY = $centroid->getY();
         //get poly as json
-        $json = json_decode($polygon->out('json'));
-
-//        $db->printer($json);
-
+        $jsonAr = json_decode($polygon->out('json'));
+        //set the container
+        $holder = array();
+        $holder['center'] = array('lat'=>$centY,'lng'=>$centX);
+        $holder['polygon'] = $jsonAr;
+        //output as json
         header('Content-type: application/json');
-        print $polygon->out('json');
+        print json_encode($holder);
     }
 }
 $db->conn->close();

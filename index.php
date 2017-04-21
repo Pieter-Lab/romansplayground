@@ -24,6 +24,7 @@ if ($result->num_rows > 0) {
         }
     }
 }
+$db->conn->close();
 $db->printer($dropdowns);
 
 ?>
