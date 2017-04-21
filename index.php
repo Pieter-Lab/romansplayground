@@ -1,3 +1,49 @@
+<?php
+
+error_reporting(E_ALL);
+ini_set("display_errors", 1);
+
+include_once('geoPHP-master/geoPHP.inc');
+
+$servername = "localhost";
+$username = "root";
+$password = "peter123";
+$dbname = "locations";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+// Check connection
+if ($conn->connect_error) {
+	die("Connection failed: " . $conn->connect_error);
+}
+
+$sql = 'SELECT AsText(geom) AS CORDS FROM amd_postcode_area_boundaries WHERE `PostArea`="GU"';
+$result = $conn->query($sql);
+
+if ($result->num_rows > 0) {
+	// output data of each row
+	while($row = $result->fetch_assoc()) {
+		echo '<pre>';
+		print_r($row);
+		echo '</pre>';
+
+		$polygon = geoPHP::load($row['CORDS'],'wkt');
+		$area = $polygon->getArea();
+		$centroid = $polygon->getCentroid();
+		$centX = $centroid->getX();
+		$centY = $centroid->getY();
+
+		print "This polygon has an area of ".$area." and a centroid with X=".$centX." and Y=".$centY;
+
+	}
+} else {
+	echo "0 results";
+}
+$conn->close();
+
+exit();
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
