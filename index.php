@@ -1,3 +1,32 @@
+<?php
+
+error_reporting(E_ALL);
+ini_set("display_errors", 1);
+//Bring in custom DB wrapper
+require __DIR__.'/db_wrapper.php';
+//Bring in Composer Libraries
+require __DIR__ . '/vendor/autoload.php';
+//---------------------------------------------------------------------------------
+//Set DB wrapper
+$db = new db_wrapper();
+//Get the post codes for dropdown
+//Get Cords by Post Code
+$sql = 'SELECT PostDist as PostArea FROM amd_postcode_disrict_boundaries';
+//get res
+$result = $db->conn->query($sql);
+//test rest
+if ($result->num_rows > 0) {
+    $dropdowns = array();
+    // output data of each row
+    while ($row = $result->fetch_assoc()) {
+        if(isset($row['PostArea'])){
+            $dropdowns[$row['PostArea']] = $row['PostArea'];
+        }
+    }
+}
+$db->conn->close();
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,7 +47,7 @@
 	<!-- Custom styles for this template -->
 	<link href="/vendor/twbs/bootstrap/docs/examples/jumbotron/jumbotron.css" rel="stylesheet">
 	<!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-	<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+	<!--[if lt IE 9]><script src="/vendor/twbs/bootstrap/docs/assets/js//ie8-responsive-file-warning.js"></script><![endif]-->
 	<script src="/vendor/twbs/bootstrap/docs/assets/js/ie-emulation-modes-warning.js"></script>
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!--[if lt IE 9]>
@@ -26,11 +55,7 @@
 	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<![endif]-->
 	<!-- Custom Styles goes here for now -->
-	<style>
-		#customgmap{
-			min-height: 400px;
-		}
-	</style>
+    <link href="_assets/css/styles.css" rel="stylesheet">
 </head>
 <body>
 <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -75,7 +100,20 @@
 		<div class="col-md-4">
 			<h2>Map Testing!!</h2>
 			<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-			<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+
+            <div class="form-group">
+                <label class="control-label col-md-6" for="company">Company</label>
+                <div class="col-md-6">
+                    <select id="postcodearea" class="form-control">
+                        <?php
+                            foreach($dropdowns as $pstCd){
+                                print '<option value="'.$pstCd.'">'.$pstCd.'</option>';
+                            }
+                        ?>
+                    </select>
+                </div>
+            </div>
+
 		</div>
 	</div>
 
@@ -90,6 +128,7 @@
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="/vendor/twbs/bootstrap/docs/assets/js/vendor/jquery.min.js"><\/script>')</script>
+<!--Boostrap Framework -->
 <script src="/vendor/twbs/bootstrap/dist/js/bootstrap.min.js"></script>
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 <script src="/vendor/twbs/bootstrap/docs/assets/js/ie10-viewport-bug-workaround.js"></script>
@@ -97,16 +136,6 @@
 <script src="/_assets/js/main.js" type="application/javascript"></script>
 <!-- ---------------------------------------------------------------------------------------------------------------- -->
 <!-- Init Google map system -->
-<script>
-//	function initMap() {
-////		// Create a map object and specify the DOM element for display.
-////		var map = new google.maps.Map(document.getElementById('customgmap'), {
-////			center: {lat: 51.5057939, lng: -0.1259181},
-////			scrollwheel: true,
-////			zoom: 8
-////		});
-//	}
-</script>
 <!--Bring in Google maps javascript API -->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhGrqYjWtbqCvspodZvrY-CgfJQ5Adtdo&callback=LABMAP.init" async defer></script>
 <!-- ---------------------------------------------------------------------------------------------------------------- -->
