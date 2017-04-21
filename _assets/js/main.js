@@ -8,6 +8,7 @@ var LABMAP = {
             startLng: -0.811881675651667
         }
     },
+    geometricspoly: [],
     initMapObj: function () {
         // Create a map object and specify the DOM element for display.
         this.map.obj = new google.maps.Map(document.getElementById(this.map.cnt), {
@@ -20,15 +21,22 @@ var LABMAP = {
         //Inistantiate google map object
         this.initMapObj();
 
+        // console.log(this.geometricspoly);
+        //
+        // var innerCoords2 = [
+        //     {lat: 51.36196888297, lng: -0.75452188214751},
+        //     {lat: 51.36196888297, lng: -0.75452188214751},
+        //     {lat: 51.357541496258, lng: -0.83653688498112},
+        //     {lat: 51.357541496258, lng: -0.83653688498112}
+        // ];
+        //
+        // this.map.obj.data.add({geometry: new google.maps.Data.Polygon(this.geometricspoly)})
 
-        var innerCoords2 = [
-            {lat: -33.364, lng: 156.207},
-            {lat: -34.364, lng: 156.207},
-            {lat: -34.364, lng: 157.207},
-            {lat: -33.364, lng: 157.207}
-        ];
+        var ctaLayer = new google.maps.KmlLayer({
+            url: 'http://local.romansplayground.com/search.kml',
+            map: this.map.obj
+        });
 
-        this.map.obj.data.add({geometry: new google.maps.Data.Polygon([innerCoords2])})
     }
 };
 //When set to go
