@@ -3,7 +3,8 @@
 error_reporting(E_ALL);
 ini_set("display_errors", 1);
 
-include_once('geoPHP-master/geoPHP.inc');
+require __DIR__ . '/vendor/autoload.php';
+//include_once('geoPHP-master/geoPHP.inc');
 
 $servername = "localhost";
 $username = "root";

@@ -1,6 +1,7 @@
 {
     "require": {
         "twbs/bootstrap": "^3.3",
-        "slim/pdo": "~1.9"
+        "slim/pdo": "~1.9",
+        "phayes/geoPHP": "dev-master"
     }
 }

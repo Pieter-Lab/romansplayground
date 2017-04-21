@@ -28,9 +28,6 @@ var LABMAP = {
             {lat: -33.364, lng: 157.207}
         ];
 
-
-
-
         this.map.obj.data.add({geometry: new google.maps.Data.Polygon([innerCoords2])})
     }
 };
