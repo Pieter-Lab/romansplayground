@@ -1,5 +1,5 @@
 <?php
-
+//Error reporting
 error_reporting(E_ALL);
 ini_set("display_errors", 1);
 //Bring in custom DB wrapper
@@ -9,23 +9,6 @@ require __DIR__ . '/vendor/autoload.php';
 //---------------------------------------------------------------------------------
 //Set DB wrapper
 $db = new db_wrapper();
-//Get the post codes for dropdown
-//Get Cords by Post Code
-$sql = 'SELECT PostDist as PostArea FROM amd_postcode_disrict_boundaries';
-//get res
-$result = $db->conn->query($sql);
-//test rest
-if ($result->num_rows > 0) {
-    $dropdowns = array();
-    // output data of each row
-    while ($row = $result->fetch_assoc()) {
-        if(isset($row['PostArea'])){
-            $dropdowns[$row['PostArea']] = $row['PostArea'];
-        }
-    }
-}
-$db->conn->close();
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -101,16 +84,14 @@ $db->conn->close();
 			<h2>Map Testing!!</h2>
 			<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
 
+
+
+
             <div class="form-group">
-                <label class="control-label col-md-6" for="company">Company</label>
-                <div class="col-md-6">
-                    <select id="postcodearea" class="form-control">
-                        <?php
-                            foreach($dropdowns as $pstCd){
-                                print '<option value="'.$pstCd.'">'.$pstCd.'</option>';
-                            }
-                        ?>
-                    </select>
+                <div id="autoAreaLookupCnt">
+                    <input id="autoAreaLookup" type="text" class="form-control" placeholder="Area Lookup" aria-describedby="basic-addon2">
+                    <div id="autoAreaLookupList" class="col-md-12">
+                    </div>
                 </div>
             </div>
 

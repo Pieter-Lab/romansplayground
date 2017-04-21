@@ -8,17 +8,9 @@ var LABMAP = {
             startLng: -0.811881675651667
         }
     },
-    initMapObj: function () {
-        // Create a map object and specify the DOM element for display.
-        this.map.obj = new google.maps.Map(document.getElementById(this.map.cnt), {
-            center: {lat: this.map.cords.startLat, lng: this.map.cords.startLng},
-            scrollwheel: true,
-            zoom: 11
-        });
-    },
     polyCaller: function (postCode){
         //Get JSON Call
-        $.getJSON( "search.php?postcode="+postCode, function( data ) {
+        $.getJSON( "searchforpoly.php?postcode="+postCode, function( data ) {
             console.log(data);
             //remove other polys
             LABMAP.map.obj.data.forEach(function(feature) {
@@ -44,13 +36,64 @@ var LABMAP = {
             LABMAP.map.obj.setCenter({lat: data.center.lat, lng: data.center.lng});
         });
     },
+    polyAction: function (val) {
+        //Test
+        if(val.length > 0){
+            //Pass to poly function
+            this.polyCaller(val);
+        }
+    },
+    areaLookup: function (searchTerm) {
+        //Get JSON Call
+        $.getJSON( "sectorsearch.php?search="+searchTerm, function( data ) {
+            //Test
+            if(data.length > 0){
+                //Clean out container
+                $("#autoAreaLookupList").html('');
+                //Set string holder
+                var HtmlString = '';
+                //set container
+                HtmlString += '<div class="list-group">';
+                    //populate container
+                    $(data).each(function(i,v){
+                        //add as list
+                        HtmlString += '<a areaitem="'+v+'" class="areaLookupItem list-group-item">'+v+'</a>';
+                    });
+                //Close container
+                HtmlString += '</div>';
+                //Add to container
+                $("#autoAreaLookupList").append(HtmlString);
+                //Show the autocomplete list
+                $("#autoAreaLookupList").show();
+                //set function
+                $("a.areaLookupItem").on('click',function(){
+                    //pass to poly action
+                    LABMAP.polyAction($(this).attr('areaitem'));
+                    //Stop default
+                    return false;
+                })
+            }
+        });
+    },
+    initMapObj: function () {
+        // Create a map object and specify the DOM element for display.
+        this.map.obj = new google.maps.Map(document.getElementById(this.map.cnt), {
+            center: {lat: this.map.cords.startLat, lng: this.map.cords.startLng},
+            scrollwheel: true,
+            zoom: 11
+        });
+    },
     init: function(){
         //Inistantiate google map object
         this.initMapObj();
-        //Hook the post code dropdown
-        $("#postcodearea").on('change',function(){
-            //get the value and pass to poly caller
-            LABMAP.polyCaller($(this).val());
+        //Hide the autocomplete list
+        $("#autoAreaLookupList").hide();
+        //Hook the text input auto lookup
+        $("input#autoAreaLookup").on('keyup',function(){
+            //Hide the autocomplete list
+            $("#autoAreaLookupList").hide();
+            //Do the lookup
+            LABMAP.areaLookup($(this).val());
         });
 
     }
