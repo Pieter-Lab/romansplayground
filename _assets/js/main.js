@@ -16,12 +16,15 @@ var LABMAP = {
             zoom: 11
         });
     },
-    init: function(){
-        //Inistantiate google map object
-        this.initMapObj();
+    polyCaller: function (postCode){
         //Get JSON Call
-        $.getJSON( "search.php?postcode=SL", function( data ) {
+        $.getJSON( "search.php?postcode="+postCode, function( data ) {
             console.log(data);
+            //remove other polys
+            LABMAP.map.obj.data.forEach(function(feature) {
+                //filter...
+                LABMAP.map.obj.data.remove(feature);
+            });
             //Create polygon map feature
             var polydata = {
                 "type": "FeatureCollection",
@@ -40,6 +43,16 @@ var LABMAP = {
             //recenter the map
             LABMAP.map.obj.setCenter({lat: data.center.lat, lng: data.center.lng});
         });
+    },
+    init: function(){
+        //Inistantiate google map object
+        this.initMapObj();
+        //Hook the post code dropdown
+        $("#postcodearea").on('change',function(){
+            //get the value and pass to poly caller
+            LABMAP.polyCaller($(this).val());
+        });
+
     }
 };
 //When set to go

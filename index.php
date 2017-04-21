@@ -11,7 +11,7 @@ require __DIR__ . '/vendor/autoload.php';
 $db = new db_wrapper();
 //Get the post codes for dropdown
 //Get Cords by Post Code
-$sql = 'SELECT PostArea FROM amd_postcode_area_boundaries';
+$sql = 'SELECT PostDist as PostArea FROM amd_postcode_disrict_boundaries';
 //get res
 $result = $db->conn->query($sql);
 //test rest
@@ -25,7 +25,6 @@ if ($result->num_rows > 0) {
     }
 }
 $db->conn->close();
-$db->printer($dropdowns);
 
 ?>
 <!DOCTYPE html>
@@ -101,7 +100,20 @@ $db->printer($dropdowns);
 		<div class="col-md-4">
 			<h2>Map Testing!!</h2>
 			<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-			<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+
+            <div class="form-group">
+                <label class="control-label col-md-6" for="company">Company</label>
+                <div class="col-md-6">
+                    <select id="postcodearea" class="form-control">
+                        <?php
+                            foreach($dropdowns as $pstCd){
+                                print '<option value="'.$pstCd.'">'.$pstCd.'</option>';
+                            }
+                        ?>
+                    </select>
+                </div>
+            </div>
+
 		</div>
 	</div>
 

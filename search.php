@@ -10,7 +10,7 @@ require __DIR__ . '/vendor/autoload.php';
 //Set DB wrapper
 $db = new db_wrapper();
 //Get Cords by Post Code
-$sql = 'SELECT AsText(geom) AS CORDS FROM amd_postcode_area_boundaries WHERE `PostArea`="'.((isset($_GET['postcode']))?$_GET['postcode']:'GU').'"';
+$sql = 'SELECT AsText(geom) AS CORDS FROM amd_postcode_disrict_boundaries WHERE `PostDist`="'.((isset($_GET['postcode']))?$_GET['postcode']:'GU15').'"';
 //get res
 $result = $db->conn->query($sql);
 //test rest
