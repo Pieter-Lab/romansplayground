@@ -1,3 +1,32 @@
+<?php
+
+error_reporting(E_ALL);
+ini_set("display_errors", 1);
+//Bring in custom DB wrapper
+require __DIR__.'/db_wrapper.php';
+//Bring in Composer Libraries
+require __DIR__ . '/vendor/autoload.php';
+//---------------------------------------------------------------------------------
+//Set DB wrapper
+$db = new db_wrapper();
+//Get the post codes for dropdown
+//Get Cords by Post Code
+$sql = 'SELECT PostArea FROM amd_postcode_area_boundaries';
+//get res
+$result = $db->conn->query($sql);
+//test rest
+if ($result->num_rows > 0) {
+    $dropdowns = array();
+    // output data of each row
+    while ($row = $result->fetch_assoc()) {
+        if(isset($row['PostArea'])){
+            $dropdowns[$row['PostArea']] = $row['PostArea'];
+        }
+    }
+}
+$db->printer($dropdowns);
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,7 +47,7 @@
 	<!-- Custom styles for this template -->
 	<link href="/vendor/twbs/bootstrap/docs/examples/jumbotron/jumbotron.css" rel="stylesheet">
 	<!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-	<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+	<!--[if lt IE 9]><script src="/vendor/twbs/bootstrap/docs/assets/js//ie8-responsive-file-warning.js"></script><![endif]-->
 	<script src="/vendor/twbs/bootstrap/docs/assets/js/ie-emulation-modes-warning.js"></script>
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!--[if lt IE 9]>
@@ -26,11 +55,7 @@
 	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<![endif]-->
 	<!-- Custom Styles goes here for now -->
-	<style>
-		#customgmap{
-			min-height: 400px;
-		}
-	</style>
+    <link href="_assets/css/styles.css" rel="stylesheet">
 </head>
 <body>
 <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -90,6 +115,7 @@
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="/vendor/twbs/bootstrap/docs/assets/js/vendor/jquery.min.js"><\/script>')</script>
+<!--Boostrap Framework -->
 <script src="/vendor/twbs/bootstrap/dist/js/bootstrap.min.js"></script>
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 <script src="/vendor/twbs/bootstrap/docs/assets/js/ie10-viewport-bug-workaround.js"></script>

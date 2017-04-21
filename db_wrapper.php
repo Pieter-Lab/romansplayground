@@ -23,4 +23,18 @@ class db_wrapper{
             die("Connection failed: " . $this->conn->connect_error);
         }
     }
+    /**
+     * Prints out variables
+     */
+    public function printer($val){
+        if(is_array($val) || is_object($val)){
+            echo '<pre>';
+            print_r($val);
+            echo '</pre>';
+        }else{
+            echo '<br />';
+            var_dump($val);
+            echo '<br />';
+        }
+    }
 }

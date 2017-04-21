@@ -10,47 +10,23 @@ require __DIR__ . '/vendor/autoload.php';
 //Set DB wrapper
 $db = new db_wrapper();
 //Get Cords by Post Code
-$sql = 'SELECT AsText(geom) AS CORDS FROM amd_postcode_area_boundaries WHERE `PostArea`="GU"';
+$sql = 'SELECT AsText(geom) AS CORDS FROM amd_postcode_area_boundaries WHERE `PostArea`="'.((isset($_GET['postcode']))?$_GET['postcode']:'GU').'"';
 //get res
 $result = $db->conn->query($sql);
 //test rest
 if ($result->num_rows > 0) {
     // output data of each row
     while($row = $result->fetch_assoc()) {
-
-
+        //Load cords into polygon
         $polygon = geoPHP::load($row['CORDS'],'wkt');
+        //get poly as json
+        $json = json_decode($polygon->out('json'));
 
-//        echo '<pre>';
-//        print_r($polygon->out('google_geocode'));
-//        echo '</pre>';
-//        echo '<pre>';
-//        print_r($polygon->out('json'));
-//        echo '</pre>';
-        echo '<pre>';
-        print_r($polygon->out('kml'));
-        echo '</pre>';
-//        echo '<pre>';
-//        print_r($polygon->getBBox());
-//        echo '</pre>';
-//        echo '<pre>';
-//        print_r($polygon->envelope());
-//        echo '</pre>';
-//        echo '<pre>';
-//        print_r($polygon->asArray());
-//        echo '</pre>';
-//        exit();
+//        $db->printer($json);
 
-//        $area = $polygon->getArea();
-//        $centroid = $polygon->getCentroid();
-//        $centX = $centroid->getX();
-//        $centY = $centroid->getY();
-//
-//        print "This polygon has an area of ".$area." and a centroid with X=".$centX." and Y=".$centY;
-
+        header('Content-type: application/json');
+        print $polygon->out('json');
     }
-} else {
-    //echo "0 results";
 }
-//$db->conn->close();
+$db->conn->close();
 
