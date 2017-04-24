@@ -11,7 +11,6 @@ var LABMAP = {
     polyCaller: function (postCode){
         //Get JSON Call
         $.getJSON( "searchforpoly.php?postcode="+postCode, function( data ) {
-            console.log(data);
             //remove other polys
             LABMAP.map.obj.data.forEach(function(feature) {
                 //filter...
@@ -43,37 +42,52 @@ var LABMAP = {
             this.polyCaller(val);
         }
     },
-    areaLookup: function (searchTerm) {
-        //Get JSON Call
-        $.getJSON( "sectorsearch.php?search="+searchTerm, function( data ) {
-            //Test
-            if(data.length > 0){
-                //Clean out container
-                $("#autoAreaLookupList").html('');
-                //Set string holder
-                var HtmlString = '';
-                //set container
-                HtmlString += '<div class="list-group">';
+    autoComp: {
+        input: 'input#autoAreaLookup',
+        resCnt : '#autoAreaLookupList',
+        areaLookup: function (searchTerm) {
+            //Get JSON Call
+            $.getJSON( "sectorsearch.php?search="+searchTerm, function( data ) {
+                //Test
+                if(data.length > 0){
+                    //Clean out container
+                    $(""+LABMAP.autoComp.resCnt+"").html('');
+                    //Set string holder
+                    var HtmlString = '';
+                    //set container
+                    HtmlString += '<div class="list-group">';
                     //populate container
                     $(data).each(function(i,v){
                         //add as list
                         HtmlString += '<a areaitem="'+v+'" class="areaLookupItem list-group-item">'+v+'</a>';
                     });
-                //Close container
-                HtmlString += '</div>';
-                //Add to container
-                $("#autoAreaLookupList").append(HtmlString);
-                //Show the autocomplete list
-                $("#autoAreaLookupList").show();
-                //set function
-                $("a.areaLookupItem").on('click',function(){
-                    //pass to poly action
-                    LABMAP.polyAction($(this).attr('areaitem'));
-                    //Stop default
-                    return false;
-                })
-            }
-        });
+                    //Close container
+                    HtmlString += '</div>';
+                    //Add to container
+                    $(""+LABMAP.autoComp.resCnt+"").append(HtmlString);
+                    //Show the autocomplete list
+                    $(""+LABMAP.autoComp.resCnt+"").show();
+                    //set function
+                    $("a.areaLookupItem").on('click',function(){
+                        //pass to poly action
+                        LABMAP.polyAction($(this).attr('areaitem'));
+                        //Stop default
+                        return false;
+                    })
+                }
+            });
+        },
+        init: function (){
+            //Hide the autocomplete list
+            $(""+LABMAP.autoComp.resCnt+"").hide();
+            //Hook the text input auto lookup
+            $(""+LABMAP.autoComp.input+"").on('keyup',function(){
+                //Hide the autocomplete list
+                $(""+LABMAP.autoComp.resCnt+"").hide();
+                //Do the lookup
+                LABMAP.autoComp.areaLookup($(this).val());
+            });
+        }
     },
     initMapObj: function () {
         // Create a map object and specify the DOM element for display.
@@ -86,16 +100,8 @@ var LABMAP = {
     init: function(){
         //Inistantiate google map object
         this.initMapObj();
-        //Hide the autocomplete list
-        $("#autoAreaLookupList").hide();
-        //Hook the text input auto lookup
-        $("input#autoAreaLookup").on('keyup',function(){
-            //Hide the autocomplete list
-            $("#autoAreaLookupList").hide();
-            //Do the lookup
-            LABMAP.areaLookup($(this).val());
-        });
-
+        //Start Autocomplete
+        this.autoComp.init();
     }
 };
 //When set to go

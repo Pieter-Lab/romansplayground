@@ -83,18 +83,15 @@ $db = new db_wrapper();
 		<div class="col-md-4">
 			<h2>Map Testing!!</h2>
 			<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-
-
-
-
-            <div class="form-group">
+			<!-- Auto Lookup --------------------------------------------------------------------------------------- -->
+			<div class="form-group">
                 <div id="autoAreaLookupCnt">
                     <input id="autoAreaLookup" type="text" class="form-control" placeholder="Area Lookup" aria-describedby="basic-addon2">
                     <div id="autoAreaLookupList" class="col-md-12">
                     </div>
                 </div>
             </div>
-
+			<!-- Auto Lookup --------------------------------------------------------------------------------------- -->
 		</div>
 	</div>
 
