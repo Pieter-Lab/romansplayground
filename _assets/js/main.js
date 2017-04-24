@@ -17,6 +17,10 @@ var LABMAP = {
         cords: {
             startLat: 51.357541496257682,
             startLng: -0.811881675651667
+        },
+        currentCords: {
+            lat: null,
+            lng: null,
         }
     },
     polyCaller: function (postCode){
@@ -42,6 +46,9 @@ var LABMAP = {
             };
             //Add the data to the map
             LABMAP.map.obj.data.addGeoJson(polydata);
+            //remember
+            LABMAP.map.currentCords.lat = data.center.lat;
+            LABMAP.map.currentCords.lng = data.center.lng;
             //recenter the map
             LABMAP.map.obj.setCenter({lat: data.center.lat, lng: data.center.lng});
         });
@@ -165,21 +172,26 @@ var LABMAP = {
             // Setup the click event listeners: simply set the map to Chicago.
             controlUI.addEventListener('click',callback);
         },
-        createControl: function (controlTitle,iconClass) {
+        createControl: function (controlType,controlTitle,iconClass) {
             // Create the DIV to hold the control and call the CenterControl()
             // constructor passing in this DIV.
             var centerControlDiv = document.createElement('div');
             //Set the callback
             var centerControl = new LABMAP.controls.createButton(centerControlDiv,function(){
                 //Get center of the current position of map
-                var mapPostion = LABMAP.map.obj.getCenter();
-                //Create current postion object
-                var curPostion = new google.maps.LatLng(mapPostion.lat(),mapPostion.lng());
+                if(LABMAP.map.currentCords.lat){
+                    //Create current postion object
+                    var curPostion = new google.maps.LatLng(LABMAP.map.currentCords.lat,LABMAP.map.currentCords.lng);
+                }else{
+                    var mapPostion = LABMAP.map.obj.getCenter();
+                    //Create current postion object
+                    var curPostion = new google.maps.LatLng(mapPostion.lat(),mapPostion.lng());
+                }
                 //Makes Places API request https://developers.google.com/maps/documentation/javascript/places#place_details
                 var request = {
                     location: curPostion,
                     radius: '1200',
-                    types: ['bus_station']
+                    types: [''+controlType+'']
                 };
                 //Make service call
                 service = new google.maps.places.PlacesService(LABMAP.map.obj);
@@ -199,188 +211,19 @@ var LABMAP = {
         },
         init: function(){
             //Set the custom controls
-            LABMAP.controls.createControl('Bus Stations','map-icon-bus-station');
-            // Bus Stations ============================================================================================
-            //     // Create the DIV to hold the control and call the CenterControl()
-            //     // constructor passing in this DIV.
-            //     var centerControlDiv = document.createElement('div');
-            //     var centerControl = new LABMAP.controls.createButton(centerControlDiv,function(){
-            //         //Get center of the current position of map
-            //         var mapPostion = LABMAP.map.obj.getCenter();
-            //         //Create current postion object
-            //         var curPostion = new google.maps.LatLng(mapPostion.lat(),mapPostion.lng());
-            //         //Makes Places API request https://developers.google.com/maps/documentation/javascript/places#place_details
-            //         var request = {
-            //             location: curPostion,
-            //             radius: '1200',
-            //             types: ['bus_station']
-            //         };
-            //         //Make service call
-            //         service = new google.maps.places.PlacesService(LABMAP.map.obj);
-            //         service.nearbySearch(request, function (results, status) {
-            //             //Add markers
-            //             if (status == google.maps.places.PlacesServiceStatus.OK) {
-            //                 for (var i = 0; i < results.length; i++) {
-            //                     var place = results[i];
-            //                     LABMAP.controls.createMarker(results[i],'map-icon-bus-station');
-            //                 }
-            //             }
-            //         });
-            //     },'Bus Stations','<span class="map-icon map-icon-bus-station"></span>');
-            //     // pass control
-            //     centerControlDiv.index = 1;
-            //     LABMAP.map.obj.controls[google.maps.ControlPosition.BOTTOM_CENTER].push(centerControlDiv);
-            // Train Stations ============================================================================================
-                // Create the DIV to hold the control and call the CenterControl()
-                // constructor passing in this DIV.
-                var centerControlDiv = document.createElement('div');
-                var centerControl = new LABMAP.controls.createButton(centerControlDiv,function(){
-                    //Get center of the current position of map
-                    var mapPostion = LABMAP.map.obj.getCenter();
-                    //Create current postion object
-                    var curPostion = new google.maps.LatLng(mapPostion.lat(),mapPostion.lng());
-                    //Makes Places API request https://developers.google.com/maps/documentation/javascript/places#place_details
-                    var request = {
-                        location: curPostion,
-                        radius: '1200',
-                        types: ['train_station']
-                    };
-                    //Make service call
-                    service = new google.maps.places.PlacesService(LABMAP.map.obj);
-                    service.nearbySearch(request, function (results, status) {
-                        //Add markers
-                        if (status == google.maps.places.PlacesServiceStatus.OK) {
-                            for (var i = 0; i < results.length; i++) {
-                                var place = results[i];
-                                LABMAP.controls.createMarker(results[i],'map-icon-train-station');
-                            }
-                        }
-                    });
-                },'Train Stations','<span class="map-icon map-icon-train-station"></span>');
-                // pass control
-                centerControlDiv.index = 1;
-                LABMAP.map.obj.controls[google.maps.ControlPosition.BOTTOM_CENTER].push(centerControlDiv);
-            // Subway Stations ============================================================================================
-                // Create the DIV to hold the control and call the CenterControl()
-                // constructor passing in this DIV.
-                var centerControlDiv = document.createElement('div');
-                var centerControl = new LABMAP.controls.createButton(centerControlDiv,function(){
-                    //Get center of the current position of map
-                    var mapPostion = LABMAP.map.obj.getCenter();
-                    //Create current postion object
-                    var curPostion = new google.maps.LatLng(mapPostion.lat(),mapPostion.lng());
-                    //Makes Places API request https://developers.google.com/maps/documentation/javascript/places#place_details
-                    var request = {
-                        location: curPostion,
-                        radius: '1200',
-                        types: ['subway_station']
-                    };
-                    //Make service call
-                    service = new google.maps.places.PlacesService(LABMAP.map.obj);
-                    service.nearbySearch(request, function (results, status) {
-                        //Add markers
-                        if (status == google.maps.places.PlacesServiceStatus.OK) {
-                            for (var i = 0; i < results.length; i++) {
-                                var place = results[i];
-                                LABMAP.controls.createMarker(results[i],'map-icon-subway-station');
-                            }
-                        }
-                    });
-                },'Subway Stations','<span class="map-icon map-icon-subway-station"></span>');
-                // pass control
-                centerControlDiv.index = 1;
-                LABMAP.map.obj.controls[google.maps.ControlPosition.BOTTOM_CENTER].push(centerControlDiv);
-            // Schools ============================================================================================
-                // Create the DIV to hold the control and call the CenterControl()
-                // constructor passing in this DIV.
-                var centerControlDiv = document.createElement('div');
-                var centerControl = new LABMAP.controls.createButton(centerControlDiv,function(){
-                    //Get center of the current position of map
-                    var mapPostion = LABMAP.map.obj.getCenter();
-                    //Create current postion object
-                    var curPostion = new google.maps.LatLng(mapPostion.lat(),mapPostion.lng());
-                    //Makes Places API request https://developers.google.com/maps/documentation/javascript/places#place_details
-                    var request = {
-                        location: curPostion,
-                        radius: '1200',
-                        types: ['school']
-                    };
-                    //Make service call
-                    service = new google.maps.places.PlacesService(LABMAP.map.obj);
-                    service.nearbySearch(request, function (results, status) {
-                        //Add markers
-                        if (status == google.maps.places.PlacesServiceStatus.OK) {
-                            for (var i = 0; i < results.length; i++) {
-                                var place = results[i];
-                                LABMAP.controls.createMarker(results[i],'map-icon-school');
-                            }
-                        }
-                    });
-                },'Schools','<span class="map-icon map-icon-school"></span>');
-                // pass control
-                centerControlDiv.index = 1;
-                LABMAP.map.obj.controls[google.maps.ControlPosition.BOTTOM_CENTER].push(centerControlDiv);
-            // Police ============================================================================================
-                // Create the DIV to hold the control and call the CenterControl()
-                // constructor passing in this DIV.
-                var centerControlDiv = document.createElement('div');
-                var centerControl = new LABMAP.controls.createButton(centerControlDiv,function(){
-                    //Get center of the current position of map
-                    var mapPostion = LABMAP.map.obj.getCenter();
-                    //Create current postion object
-                    var curPostion = new google.maps.LatLng(mapPostion.lat(),mapPostion.lng());
-                    //Makes Places API request https://developers.google.com/maps/documentation/javascript/places#place_details
-                    var request = {
-                        location: curPostion,
-                        radius: '1200',
-                        types: ['police']
-                    };
-                    //Make service call
-                    service = new google.maps.places.PlacesService(LABMAP.map.obj);
-                    service.nearbySearch(request, function (results, status) {
-                        //Add markers
-                        if (status == google.maps.places.PlacesServiceStatus.OK) {
-                            for (var i = 0; i < results.length; i++) {
-                                var place = results[i];
-                                LABMAP.controls.createMarker(results[i],'map-icon-police');
-                            }
-                        }
-                    });
-                },'Police','<span class="map-icon map-icon-police"></span>');
-                // pass control
-                centerControlDiv.index = 1;
-                LABMAP.map.obj.controls[google.maps.ControlPosition.BOTTOM_CENTER].push(centerControlDiv);
-            // Hospitals ============================================================================================
-                // Create the DIV to hold the control and call the CenterControl()
-                // constructor passing in this DIV.
-                var centerControlDiv = document.createElement('div');
-                var centerControl = new LABMAP.controls.createButton(centerControlDiv,function(){
-                    //Get center of the current position of map
-                    var mapPostion = LABMAP.map.obj.getCenter();
-                    //Create current postion object
-                    var curPostion = new google.maps.LatLng(mapPostion.lat(),mapPostion.lng());
-                    //Makes Places API request https://developers.google.com/maps/documentation/javascript/places#place_details
-                    var request = {
-                        location: curPostion,
-                        radius: '1200',
-                        types: ['hospital']
-                    };
-                    //Make service call
-                    service = new google.maps.places.PlacesService(LABMAP.map.obj);
-                    service.nearbySearch(request, function (results, status) {
-                        //Add markers
-                        if (status == google.maps.places.PlacesServiceStatus.OK) {
-                            for (var i = 0; i < results.length; i++) {
-                                var place = results[i];
-                                LABMAP.controls.createMarker(results[i],'map-icon-hospital');
-                            }
-                        }
-                    });
-                },'Hospitals','<span class="map-icon map-icon-hospital"></span>');
-                // pass control
-                centerControlDiv.index = 1;
-                LABMAP.map.obj.controls[google.maps.ControlPosition.BOTTOM_CENTER].push(centerControlDiv);
-            // Clear ============================================================================================
+            //Bus Stations ============================================================================================
+            // LABMAP.controls.createControl('bus_station','Bus Stations','map-icon-bus-station');
+            //Train Stations ==========================================================================================
+            LABMAP.controls.createControl('train_station','Train Stations','map-icon-train-station');
+            //Subway Stations =========================================================================================
+            // LABMAP.controls.createControl('subway_station','Subway Stations','map-icon-subway-station');
+            //Schools =================================================================================================
+            LABMAP.controls.createControl('school','Schools','map-icon-school');
+            //Police ==================================================================================================
+            // LABMAP.controls.createControl('police','Police','map-icon-police');
+            //Hospitals ===============================================================================================
+            // LABMAP.controls.createControl('hospital','Hospitals','map-icon-hospital');
+            // Clear ===================================================================================================
                 // Create the DIV to hold the control and call the CenterControl()
                 // constructor passing in this DIV.
                 var centerControlDiv = document.createElement('div');
