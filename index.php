@@ -39,6 +39,9 @@ $db = new db_wrapper();
 	<![endif]-->
 	<!-- Custom Styles goes here for now -->
     <link href="_assets/css/styles.css" rel="stylesheet">
+	<!-- Map Icons -->
+		<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href="/_assets/maps-icons/css/map-icons.css">
 </head>
 <body>
 <nav class="navbar navbar-inverse navbar-fixed-top">
