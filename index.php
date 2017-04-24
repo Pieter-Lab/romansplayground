@@ -115,7 +115,7 @@ $db = new db_wrapper();
 <!-- ---------------------------------------------------------------------------------------------------------------- -->
 <!-- Init Google map system -->
 <!--Bring in Google maps javascript API -->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhGrqYjWtbqCvspodZvrY-CgfJQ5Adtdo&callback=LABMAP.init" async defer></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhGrqYjWtbqCvspodZvrY-CgfJQ5Adtdo&libraries=places&callback=LABMAP.init" async defer></script>
 <!-- ---------------------------------------------------------------------------------------------------------------- -->
 </body>
 </html>

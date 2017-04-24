@@ -89,12 +89,138 @@ var LABMAP = {
             });
         }
     },
+    controls: {
+        markers: [],
+        createMarker: function (place) {
+            //get place
+            var placeLoc = place.geometry.location;
+            //set the marker
+            var marker = new google.maps.Marker({
+                map: LABMAP.map.obj,
+                position: place.geometry.location
+            });
+            //start info window
+            infowindow = new google.maps.InfoWindow();
+            //Add on click
+            google.maps.event.addListener(marker, 'click', function() {
+                //Set content
+                infowindow.setContent(place.name);
+                //set open call
+                infowindow.open(LABMAP.map.obj, this);
+            });
+            //Push into markers container
+            LABMAP.controls.markers.push(marker);
+        },
+        clearMarkers: function () {
+            //Loop through all markers and clear them
+            for (var i = 0; i < LABMAP.controls.markers.length; i++) {
+                //Remove the marker from map
+                LABMAP.controls.markers[i].setMap(null);
+                //remove marker from array
+                //LABMAP.controls.markers.splice([i]);
+            }
+        },
+        center: function(controlDiv,callback,title,innerHtml){
+            // Set CSS for the control border.
+            var controlUI = document.createElement('div');
+            controlUI.style.backgroundColor = '#fff';
+            controlUI.style.border = '2px solid #fff';
+            controlUI.style.borderRadius = '3px';
+            controlUI.style.boxShadow = '0 2px 6px rgba(0,0,0,.3)';
+            controlUI.style.cursor = 'pointer';
+            controlUI.style.marginBottom = '22px';
+            controlUI.style.textAlign = 'center';
+            controlUI.title = title;
+            controlDiv.appendChild(controlUI);
+            // Set CSS for the control interior.
+            var controlText = document.createElement('div');
+            controlText.style.color = 'rgb(25,25,25)';
+            controlText.style.fontFamily = 'Roboto,Arial,sans-serif';
+            controlText.style.fontSize = '16px';
+            controlText.style.lineHeight = '38px';
+            controlText.style.paddingLeft = '5px';
+            controlText.style.paddingRight = '5px';
+            controlText.innerHTML = innerHtml;
+            controlUI.appendChild(controlText);
+            // Setup the click event listeners: simply set the map to Chicago.
+            controlUI.addEventListener('click',callback);
+        },
+        init: function(){
+            //Set the custom controls
+            // Bus Stations ============================================================================================
+                // Create the DIV to hold the control and call the CenterControl()
+                // constructor passing in this DIV.
+                var centerControlDiv = document.createElement('div');
+                var centerControl = new LABMAP.controls.center(centerControlDiv,function(){
+                    //Get center of the current position of map
+                    var mapPostion = LABMAP.map.obj.getCenter();
+                    //Create current postion object
+                    var curPostion = new google.maps.LatLng(mapPostion.lat(),mapPostion.lng());
+                    //Makes Places API request https://developers.google.com/maps/documentation/javascript/places#place_details
+                    var request = {
+                        location: curPostion,
+                        radius: '500',
+                        types: ['bus_station']
+                    };
+                    //Make service call
+                    service = new google.maps.places.PlacesService(LABMAP.map.obj);
+                    service.nearbySearch(request, function (results, status) {
+                        //Clear existing markers
+                        LABMAP.controls.clearMarkers();
+                        //Add markers
+                        if (status == google.maps.places.PlacesServiceStatus.OK) {
+                            for (var i = 0; i < results.length; i++) {
+                                var place = results[i];
+                                LABMAP.controls.createMarker(results[i]);
+                            }
+                        }
+                    });
+                },'Bus and Train Stations','Transport');
+                // pass control
+                centerControlDiv.index = 1;
+                LABMAP.map.obj.controls[google.maps.ControlPosition.BOTTOM_CENTER].push(centerControlDiv);
+            // =========================================================================================================
+            // Bus Stations ============================================================================================
+                // Create the DIV to hold the control and call the CenterControl()
+                // constructor passing in this DIV.
+                var centerControlDiv = document.createElement('div');
+                var centerControl = new LABMAP.controls.center(centerControlDiv,function(){
+                    //Get center of the current position of map
+                    var mapPostion = LABMAP.map.obj.getCenter();
+                    //Create current postion object
+                    var curPostion = new google.maps.LatLng(mapPostion.lat(),mapPostion.lng());
+                    //Makes Places API request https://developers.google.com/maps/documentation/javascript/places#place_details
+                    var request = {
+                        location: curPostion,
+                        radius: '500',
+                        types: ['school','police','hospital']
+                    };
+                    //Make service call
+                    service = new google.maps.places.PlacesService(LABMAP.map.obj);
+                    service.nearbySearch(request, function (results, status) {
+                        //Clear existing markers
+                        LABMAP.controls.clearMarkers();
+                        //Add markers
+                        if (status == google.maps.places.PlacesServiceStatus.OK) {
+                            for (var i = 0; i < results.length; i++) {
+                                var place = results[i];
+                                LABMAP.controls.createMarker(results[i]);
+                            }
+                        }
+                    });
+                },'Schools and Hospital','Schools');
+                // pass control
+                centerControlDiv.index = 1;
+                LABMAP.map.obj.controls[google.maps.ControlPosition.BOTTOM_CENTER].push(centerControlDiv);
+            // =========================================================================================================
+        }
+    },
     initMapObj: function () {
         // Create a map object and specify the DOM element for display.
         this.map.obj = new google.maps.Map(document.getElementById(this.map.cnt), {
             center: {lat: this.map.cords.startLat, lng: this.map.cords.startLng},
             scrollwheel: true,
-            zoom: 11
+            zoom: 13
         });
     },
     init: function(){
@@ -102,6 +228,9 @@ var LABMAP = {
         this.initMapObj();
         //Start Autocomplete
         this.autoComp.init();
+        //Setup the custom controls
+        this.controls.init();
+
     }
 };
 //When set to go
