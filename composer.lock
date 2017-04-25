@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "ccd7a4b23ef8de7dcc9af97d83da704c",
+    "content-hash": "5ce6bbf6e8dde5d962a5409727bb907f",
     "packages": [
         {
-            "name": "phayes/geophp",
+            "name": "sookoll/geophp",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/phayes/geoPHP.git",
-                "reference": "685562416ec6d22b9b3927e02ca0ddacf84ca646"
+                "url": "https://github.com/sookoll/geoPHP.git",
+                "reference": "e17d880adbc1092b4d7c17e4d88745e7b70b2a6d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phayes/geoPHP/zipball/685562416ec6d22b9b3927e02ca0ddacf84ca646",
-                "reference": "685562416ec6d22b9b3927e02ca0ddacf84ca646",
+                "url": "https://api.github.com/repos/sookoll/geoPHP/zipball/e17d880adbc1092b4d7c17e4d88745e7b70b2a6d",
+                "reference": "e17d880adbc1092b4d7c17e4d88745e7b70b2a6d",
                 "shasum": ""
             },
             "require-dev": {
@@ -39,8 +39,8 @@
                 }
             ],
             "description": "GeoPHP is a open-source native PHP library for doing geometry operations. It is written entirely in PHP and can therefore run on shared hosts. It can read and write a wide variety of formats: WKT (including EWKT), WKB (including EWKB), GeoJSON, KML, GPX, GeoRSS). It works with all Simple-Feature geometries (Point, LineString, Polygon, GeometryCollection etc.) and can be used to get centroids, bounding-boxes, area, and a wide variety of other useful information.",
-            "homepage": "https://github.com/phayes/geoPHP",
-            "time": "2016-03-04 05:42:29"
+            "homepage": "https://github.com/sookoll/geoPHP",
+            "time": "2017-02-17 17:29:28"
         },
         {
             "name": "twbs/bootstrap",
@@ -98,7 +98,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "phayes/geophp": 20
+        "sookoll/geophp": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

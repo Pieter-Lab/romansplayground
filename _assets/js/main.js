@@ -23,9 +23,88 @@ var LABMAP = {
             lng: null,
         }
     },
+    propertyMarkers: [],
+    propertyCreateMarkers: function (data) {
+        //Test data
+        if(data){
+            //Loop through all markers and clear them
+            for (var i = 0; i < LABMAP.propertyMarkers.length; i++) {
+                //Remove the marker from map
+                LABMAP.propertyMarkers[i].setMap(null);
+                //remove marker from array
+                //LABMAP.controls.markers.splice([i]);
+            }
+            //Loop em
+            $(data).each(function(i,v){
+                //Test that the property has a location
+                if(!isNaN(v.Latitude) && !isNaN(v.Longitude)){
+                    console.log("---P5---");
+                    //Create Map marker
+                    var propMarker = new Marker({
+                        title: v.HouseName,
+                        map: LABMAP.map.obj,
+                        position: new google.maps.LatLng(v.Latitude, v.Longitude),
+                        icon: {
+                            path: SQUARE_PIN,
+                            fillColor: '#00CCBB',
+                            fillOpacity: 1,
+                            strokeColor: '',
+                            strokeWeight: 0
+                        },
+                        map_icon_label: '<span class="map-icon 	map-icon-map-pin"></span>'
+                    });
+                    //start info window
+                    infowindow = new google.maps.InfoWindow();
+                    //Add on click
+                    google.maps.event.addListener(propMarker, 'click', function() {
+                        //create content string
+                        var string  = '<div class="row">';
+                                string += '<div class="col-md-12">';
+                                //Set the info block
+                                string += '<div class="row">';
+                                    string += '<div class="col-md-12">';
+                                        if(typeof v.HouseName !== 'undefined'){
+                                            string += '<h3>'+v.HouseName+'</h3>';
+                                        }
+                                        string += '<h4>'+v.SalePriceString+'</h4>';
+                                        string += '<p>'+v.Description+'</p>';
+                                    string += '</div>';
+                                string += '</div>';
+                                //Set the images
+                                if(typeof v.Image !== 'undefined'){
+                                    if(v.Image.length > 0){
+                                        var counter = 0;
+                                        string += '<div class="row">';
+                                        $(v.Image).each(function(index,value){
+                                            if(counter == 3){
+                                                string += '</div>';
+                                                string += '<div class="row">';
+                                            }
+                                            string += '<div class="thumbnail col-md-4">';
+                                            string += '<img class="img-responsive" src="'+value.Filepath+'" title="'+value.Caption+'" alt="'+value.Caption+'" style="max-width: 100%;" />';
+                                            string += '</div>';
+                                            counter++;
+                                        });
+                                        string += '</div>';
+                                        console.log(counter);
+                                    }
+                                }
+                                string += '</div>';
+                            string += '</div>';
+                        //Set content
+                        infowindow.setContent(string);
+                        //set open call
+                        infowindow.open(LABMAP.map.obj, this);
+                    });
+                    //Push into markers container
+                    LABMAP.propertyMarkers.push(propMarker);
+                }
+            });
+        }
+    },
     polyCaller: function (postCode){
         //Get JSON Call
-        $.getJSON( "searchforpoly.php?postcode="+postCode, function( data ) {
+        $.getJSON( "/searchforpoly.php?postcode="+postCode, function( data ) {
             //remove other polys
             LABMAP.map.obj.data.forEach(function(feature) {
                 //filter...
@@ -51,6 +130,10 @@ var LABMAP = {
             LABMAP.map.currentCords.lng = data.center.lng;
             //recenter the map
             LABMAP.map.obj.setCenter({lat: data.center.lat, lng: data.center.lng});
+            //Test if we have properties for this
+            if(typeof data.properties !== 'undefined'){
+                LABMAP.propertyCreateMarkers(data.properties);
+            }
         });
     },
     polyAction: function (val) {
@@ -65,7 +148,7 @@ var LABMAP = {
         resCnt : '#autoAreaLookupList',
         areaLookup: function (searchTerm) {
             //Get JSON Call
-            $.getJSON( "sectorsearch.php?search="+searchTerm, function( data ) {
+            $.getJSON( "/sectorsearch.php?search="+searchTerm, function( data ) {
                 //Test
                 if(data.length > 0){
                     //Clean out container
@@ -114,6 +197,7 @@ var LABMAP = {
             var placeLoc = place.geometry.location;
             //set the marker
             var marker = new Marker({
+                title: place.name,
                 map: LABMAP.map.obj,
                 position: place.geometry.location,
                 icon: {
