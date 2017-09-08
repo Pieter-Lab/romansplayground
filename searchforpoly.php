@@ -6,6 +6,8 @@ ini_set("display_errors", 1);
 require __DIR__.'/db_wrapper.php';
 //Bring in Composer Libraries
 require __DIR__ . '/vendor/autoload.php';
+//Set DB wrapper
+$db = new db_wrapper();
 //---------------------------------------------------------------------------------
 //Check for Search
 if(isset($_GET) && isset($_GET['postcode'])){
@@ -26,6 +28,8 @@ if(isset($_GET) && isset($_GET['postcode'])){
     //Set the proiperty fields we wish to get back from reapit
     $criteria['PropertyField'] = array(
         'ID',
+        'SearchType',
+        'Type',
         'HouseName',
         'SalePriceString',
         'RentString',
@@ -61,8 +65,6 @@ if(isset($_GET) && isset($_GET['postcode'])){
 }
 //Kil Client
 unset($client);
-//Set DB wrapper
-$db = new db_wrapper();
 //Get Cords by Post Code
 $sql = 'SELECT AsText(geom) AS CORDS FROM amd_postcode_disrict_boundaries WHERE `PostDist`="'.$_GET['postcode'].'" OR `Structurred_Dist`="'.$_GET['postcode'].'" ORDER BY `PostDist` ASC';
 //get res
@@ -77,10 +79,26 @@ if ($result->num_rows > 0) {
         $centroid = $polygon->getCentroid();
         $centX = $centroid->getX();
         $centY = $centroid->getY();
+        //get boundry
+        $boundry = $polygon->getBBox();
+//        $polyAr = $polygon->asArray();
+//        $polyAr = $polyAr[0];
+//        array_pop($polyAr);
+//
+//        $firstPoint = current($polyAr);
+//        $lastPoint = end($polyAr);
+//
+//        $db->printer($firstPoint);
+//        $db->printer($lastPoint);
+//        $db->printer($polyAr);
+//        exit("Bob!!");
+
         //get poly as json
         $jsonAr = json_decode($polygon->out('json'));
         //set the container
         $holder = array();
+        $holder['area'] = ($polygon->getArea() * 69.05482) * 1609.344;
+        $holder['bound'] = $db->vincentyGreatCircleDistance($boundry['miny'],$boundry['minx'],$boundry['maxy'],$boundry['maxx']);
         $holder['center'] = array('lat'=>$centY,'lng'=>$centX);
         $holder['polygon'] = $jsonAr;
         //Props
@@ -121,6 +139,7 @@ if ($result->num_rows > 0) {
         $jsonAr = json_decode($polygon->out('json'));
         //set the container
         $holder = array();
+        $holder['area'] = $polygon->getArea();
         $holder['center'] = array('lat'=>$centY,'lng'=>$centX);
         $holder['polygon'] = $jsonAr;
         //Props

@@ -38,7 +38,6 @@ var LABMAP = {
             $(data).each(function(i,v){
                 //Test that the property has a location
                 if(!isNaN(v.Latitude) && !isNaN(v.Longitude)){
-                    console.log("---P5---");
                     //Create Map marker
                     var propMarker = new Marker({
                         title: v.HouseName,
@@ -130,6 +129,33 @@ var LABMAP = {
             LABMAP.map.currentCords.lng = data.center.lng;
             //recenter the map
             LABMAP.map.obj.setCenter({lat: data.center.lat, lng: data.center.lng});
+
+            //Create Heat map
+            if(typeof data.bound !== 'undefined'){
+
+                console.log(data);
+
+                LABMAP.controls.globalRadius = data.area;
+                // $("#mapRadialSearch").val(LABMAP.controls.globalRadius);
+                // $("#mapRadialSearchAmount").html(LABMAP.controls.globalRadius);
+
+                // console.log(LABMAP.controls.globalRadius);
+                // console.log(LABMAP.controls.globalRadius * 1609.34);
+
+                var cityCircle = new google.maps.Circle({
+                    strokeColor: '#FF0000',
+                    strokeOpacity: 0.8,
+                    strokeWeight: 2,
+                    fillColor: '#FF0000',
+                    fillOpacity: 0.35,
+                    map: LABMAP.map.obj,
+                    center: {lat: data.center.lat, lng: data.center.lng},
+                    radius: LABMAP.controls.globalRadius
+                });
+
+
+
+            }
             //Test if we have properties for this
             if(typeof data.properties !== 'undefined'){
                 LABMAP.propertyCreateMarkers(data.properties);
@@ -191,6 +217,7 @@ var LABMAP = {
         }
     },
     controls: {
+        globalRadius: '1200',
         markers: [],
         createMarker: function (place,iconClass) {
             //get place
@@ -274,7 +301,7 @@ var LABMAP = {
                 //Makes Places API request https://developers.google.com/maps/documentation/javascript/places#place_details
                 var request = {
                     location: curPostion,
-                    radius: '1200',
+                    radius: LABMAP.controls.globalRadius,
                     types: [''+controlType+'']
                 };
                 //Make service call
@@ -318,6 +345,36 @@ var LABMAP = {
                 // pass control
                 centerControlDiv.index = 1;
                 LABMAP.map.obj.controls[google.maps.ControlPosition.BOTTOM_CENTER].push(centerControlDiv);
+            // =========================================================================================================
+            // Radial Slider control ===================================================================================================
+                //https://developers.google.com/maps/documentation/javascript/places#radar_search_requests
+                // Create the DIV to hold the control and call the CenterControl()
+                // constructor passing in this DIV.
+                var centerControlDiv = document.createElement('div');
+                var centerControl = new LABMAP.controls.createButton(centerControlDiv,function(){
+                    //set the global radius
+                    LABMAP.controls.globalRadius = $("#mapRadialSearch").val();
+                    //TODO: Display Val converted to miles
+                    $("#mapRadialSearchAmount").html(LABMAP.controls.globalRadius);
+
+                    console.log(typeof LABMAP.controls.globalRadius);
+                    console.log(LABMAP.controls.globalRadius);
+
+                    var cityCircle = new google.maps.Circle({
+                        strokeColor: '#FF0000',
+                        strokeOpacity: 0.8,
+                        strokeWeight: 2,
+                        fillColor: '#FF0000',
+                        fillOpacity: 0.35,
+                        map: LABMAP.map.obj,
+                        center: {lat: LABMAP.map.currentCords.lat, lng: LABMAP.map.currentCords.lng},
+                        radius: parseInt(LABMAP.controls.globalRadius)
+                    });
+
+                },'Expand Search','<input id="mapRadialSearch" value="'+LABMAP.controls.globalRadius+'" type="range" min="10" max="50000" step="10" data-orientation="vertical" /><span id="mapRadialSearchAmount">'+LABMAP.controls.globalRadius+'</span>');
+                // pass control
+                centerControlDiv.index = 1;
+                LABMAP.map.obj.controls[google.maps.ControlPosition.TOP_CENTER].push(centerControlDiv);
             // =========================================================================================================
         }
     },

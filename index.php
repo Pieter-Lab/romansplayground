@@ -44,6 +44,7 @@ $db = new db_wrapper();
 		<link rel="stylesheet" type="text/css" href="/_assets/maps-icons/css/map-icons.css">
 </head>
 <body>
+<a href="https://romans-new-labpieter.c9users.io/node4-bedroom-detached-house-566" target="_blank">Test External referrer</a>
 <nav class="navbar navbar-inverse navbar-fixed-top">
 	<div class="container">
 		<div class="navbar-header">
@@ -118,7 +119,7 @@ $db = new db_wrapper();
 <!-- ---------------------------------------------------------------------------------------------------------------- -->
 <!-- Init Google map system -->
 <!--Bring in Google maps javascript API -->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhGrqYjWtbqCvspodZvrY-CgfJQ5Adtdo&libraries=places&callback=LABMAP.init" async defer></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhGrqYjWtbqCvspodZvrY-CgfJQ5Adtdo&libraries=places,geometry&callback=LABMAP.init" async defer></script>
 <!-- ---------------------------------------------------------------------------------------------------------------- -->
 </body>
 </html>
